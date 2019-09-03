@@ -1,0 +1,8 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Created by:
+${licensePrefix}DONNY MALIK KURNIAWAN
+<#if licenseLast??>
+${licenseLast}
+</#if>

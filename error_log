@@ -1,0 +1,262 @@
+[03-Jun-2017 10:08:57 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/bpsdmdjateng/public_html/eproper/plugins/config2.php on line 2
+[03-Jun-2017 17:08:57 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listnmdiklat-all.php on line 11
+[03-Jun-2017 17:08:57 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listnmdiklat-all.php on line 13
+[03-Jun-2017 10:08:57 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[03-Jun-2017 10:08:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 8
+[03-Jun-2017 10:08:57 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 16
+[17-Jun-2017 21:36:44 UTC] PHP Notice:  Undefined variable: selectinovasi in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 18
+[17-Jun-2017 21:36:44 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 18
+[18-Jul-2017 03:00:35 UTC] PHP Notice:  Undefined variable: selectinovasi in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 18
+[18-Jul-2017 03:00:35 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 18
+[18-Jul-2017 23:48:18 UTC] PHP Notice:  Undefined index: id in /home/bpsdmdjateng/public_html/eproper/detailinovasi.php on line 4
+[31-Aug-2017 07:59:24 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 82
+[31-Aug-2017 07:59:47 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 82
+[31-Aug-2017 08:00:11 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 82
+[31-Aug-2017 08:00:37 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 82
+[31-Aug-2017 08:31:06 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 115
+[31-Aug-2017 08:31:56 UTC] PHP Warning:  Unterminated comment starting line 82 in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 82
+[31-Aug-2017 08:34:04 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 82
+[31-Aug-2017 08:36:39 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 82
+[04-Sep-2017 06:15:41 UTC] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php56/sess_4c9h78ea8gk8bp1opugndtr335, O_RDWR) failed: No such file or directory (2) in /home/bpsdmdjateng/public_html/eproper/ceklogin.php on line 2
+[04-Sep-2017 06:15:41 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bpsdmdjateng/public_html/eproper/ceklogin.php:2) in /home/bpsdmdjateng/public_html/eproper/ceklogin.php on line 2
+[04-Sep-2017 06:15:41 UTC] PHP Warning:  Unknown: open(/var/cpanel/php/sessions/ea-php56/sess_4c9h78ea8gk8bp1opugndtr335, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[04-Sep-2017 06:15:41 UTC] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/cpanel/php/sessions/ea-php56) in Unknown on line 0
+[04-Sep-2017 06:15:49 UTC] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php56/sess_4c9h78ea8gk8bp1opugndtr335, O_RDWR) failed: No such file or directory (2) in /home/bpsdmdjateng/public_html/eproper/ceklogin.php on line 2
+[04-Sep-2017 06:15:49 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bpsdmdjateng/public_html/eproper/ceklogin.php:2) in /home/bpsdmdjateng/public_html/eproper/ceklogin.php on line 2
+[04-Sep-2017 06:15:49 UTC] PHP Warning:  Unknown: open(/var/cpanel/php/sessions/ea-php56/sess_4c9h78ea8gk8bp1opugndtr335, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[04-Sep-2017 06:15:49 UTC] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/cpanel/php/sessions/ea-php56) in Unknown on line 0
+[04-Sep-2017 06:16:24 UTC] PHP Warning:  session_start(): open(/var/cpanel/php/sessions/ea-php56/sess_4c9h78ea8gk8bp1opugndtr335, O_RDWR) failed: No such file or directory (2) in /home/bpsdmdjateng/public_html/eproper/ceklogin.php on line 2
+[04-Sep-2017 06:16:24 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bpsdmdjateng/public_html/eproper/ceklogin.php:2) in /home/bpsdmdjateng/public_html/eproper/ceklogin.php on line 2
+[04-Sep-2017 06:16:24 UTC] PHP Warning:  Unknown: open(/var/cpanel/php/sessions/ea-php56/sess_4c9h78ea8gk8bp1opugndtr335, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[04-Sep-2017 06:16:24 UTC] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/cpanel/php/sessions/ea-php56) in Unknown on line 0
+[10-Sep-2017 16:51:54 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 18
+[10-Sep-2017 17:10:01 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 18
+[14-Sep-2017 05:13:35 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config2.php on line 2
+[14-Sep-2017 12:13:35 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listnmdiklat-all.php on line 11
+[14-Sep-2017 12:13:35 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listnmdiklat-all.php on line 13
+[14-Sep-2017 05:13:37 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config2.php on line 2
+[14-Sep-2017 12:13:37 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listnmdiklat-all.php on line 11
+[14-Sep-2017 12:13:37 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listnmdiklat-all.php on line 13
+[14-Sep-2017 05:13:40 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config2.php on line 2
+[14-Sep-2017 12:13:40 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listnmdiklat-all.php on line 11
+[14-Sep-2017 12:13:40 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listnmdiklat-all.php on line 13
+[14-Sep-2017 05:13:40 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[14-Sep-2017 05:13:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 9
+[14-Sep-2017 05:13:40 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 18
+[14-Sep-2017 05:13:41 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[14-Sep-2017 05:13:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 9
+[14-Sep-2017 05:13:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 18
+[14-Sep-2017 05:13:41 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[14-Sep-2017 05:13:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 8
+[14-Sep-2017 05:13:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 9
+[14-Sep-2017 05:13:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 10
+[14-Sep-2017 05:13:41 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 12
+[14-Sep-2017 05:13:41 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 47
+[14-Sep-2017 05:13:41 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 82
+[14-Sep-2017 05:13:44 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config2.php on line 2
+[14-Sep-2017 12:13:44 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listnmdiklat-all.php on line 11
+[14-Sep-2017 12:13:44 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listnmdiklat-all.php on line 13
+[14-Sep-2017 05:13:44 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[14-Sep-2017 05:13:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 9
+[14-Sep-2017 05:13:44 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 18
+[14-Sep-2017 05:13:44 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[14-Sep-2017 05:13:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 9
+[14-Sep-2017 05:13:44 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 18
+[14-Sep-2017 05:13:44 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[14-Sep-2017 05:13:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 8
+[14-Sep-2017 05:13:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 9
+[14-Sep-2017 05:13:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 10
+[14-Sep-2017 05:13:44 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 12
+[14-Sep-2017 05:13:44 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 47
+[14-Sep-2017 05:13:44 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 82
+[14-Sep-2017 05:13:47 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config2.php on line 2
+[14-Sep-2017 12:13:47 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listnmdiklat-all.php on line 11
+[14-Sep-2017 12:13:47 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listnmdiklat-all.php on line 13
+[14-Sep-2017 05:13:47 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[14-Sep-2017 05:13:47 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 9
+[14-Sep-2017 05:13:47 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 18
+[14-Sep-2017 05:13:48 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[14-Sep-2017 05:13:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 9
+[14-Sep-2017 05:13:48 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 18
+[14-Sep-2017 05:13:48 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[14-Sep-2017 05:13:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 8
+[14-Sep-2017 05:13:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 9
+[14-Sep-2017 05:13:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 10
+[14-Sep-2017 05:13:48 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 12
+[14-Sep-2017 05:13:48 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 47
+[14-Sep-2017 05:13:48 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 82
+[14-Sep-2017 05:14:30 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config2.php on line 2
+[14-Sep-2017 12:14:30 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listnmdiklat-all.php on line 11
+[14-Sep-2017 12:14:30 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listnmdiklat-all.php on line 13
+[14-Sep-2017 05:14:30 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[14-Sep-2017 05:14:30 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 9
+[14-Sep-2017 05:14:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 18
+[14-Sep-2017 05:14:30 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[14-Sep-2017 05:14:30 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 9
+[14-Sep-2017 05:14:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 18
+[14-Sep-2017 05:14:30 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[14-Sep-2017 05:14:30 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 8
+[14-Sep-2017 05:14:30 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 9
+[14-Sep-2017 05:14:30 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 10
+[14-Sep-2017 05:14:30 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 12
+[14-Sep-2017 05:14:30 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 47
+[14-Sep-2017 05:14:30 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 82
+[14-Sep-2017 05:14:35 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config2.php on line 2
+[14-Sep-2017 12:14:35 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listnmdiklat-all.php on line 11
+[14-Sep-2017 12:14:35 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listnmdiklat-all.php on line 13
+[14-Sep-2017 05:14:35 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[14-Sep-2017 05:14:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 9
+[14-Sep-2017 05:14:35 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 18
+[14-Sep-2017 05:14:36 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[14-Sep-2017 05:14:36 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 9
+[14-Sep-2017 05:14:36 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 18
+[14-Sep-2017 05:14:36 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[14-Sep-2017 05:14:36 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 8
+[14-Sep-2017 05:14:36 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 9
+[14-Sep-2017 05:14:36 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 10
+[14-Sep-2017 05:14:36 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 12
+[14-Sep-2017 05:14:36 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 47
+[14-Sep-2017 05:14:36 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 82
+[14-Sep-2017 05:14:38 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config2.php on line 2
+[14-Sep-2017 12:14:38 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listnmdiklat-all.php on line 11
+[14-Sep-2017 12:14:38 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listnmdiklat-all.php on line 13
+[14-Sep-2017 05:14:38 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[14-Sep-2017 05:14:38 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 9
+[14-Sep-2017 05:14:38 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 18
+[14-Sep-2017 05:14:38 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[14-Sep-2017 05:14:38 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 9
+[14-Sep-2017 05:14:38 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 18
+[14-Sep-2017 05:14:38 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[14-Sep-2017 05:14:38 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 8
+[14-Sep-2017 05:14:38 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 9
+[14-Sep-2017 05:14:38 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 10
+[14-Sep-2017 05:14:38 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 12
+[14-Sep-2017 05:14:38 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 47
+[14-Sep-2017 05:14:38 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 82
+[14-Sep-2017 05:14:41 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config2.php on line 2
+[14-Sep-2017 12:14:41 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listnmdiklat-all.php on line 11
+[14-Sep-2017 12:14:41 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listnmdiklat-all.php on line 13
+[14-Sep-2017 05:14:41 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[14-Sep-2017 05:14:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 9
+[14-Sep-2017 05:14:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 18
+[14-Sep-2017 05:14:41 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[14-Sep-2017 05:14:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 9
+[14-Sep-2017 05:14:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 18
+[14-Sep-2017 05:14:41 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[14-Sep-2017 05:14:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 8
+[14-Sep-2017 05:14:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 9
+[14-Sep-2017 05:14:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 10
+[14-Sep-2017 05:14:41 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 12
+[14-Sep-2017 05:14:41 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 47
+[14-Sep-2017 05:14:41 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 82
+[14-Sep-2017 05:14:44 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config2.php on line 2
+[14-Sep-2017 12:14:44 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listnmdiklat-all.php on line 11
+[14-Sep-2017 12:14:44 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listnmdiklat-all.php on line 13
+[14-Sep-2017 05:14:44 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[14-Sep-2017 05:14:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 9
+[14-Sep-2017 05:14:44 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 18
+[14-Sep-2017 05:14:44 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[14-Sep-2017 05:14:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 9
+[14-Sep-2017 05:14:44 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 18
+[14-Sep-2017 05:14:44 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[14-Sep-2017 05:14:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 8
+[14-Sep-2017 05:14:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 9
+[14-Sep-2017 05:14:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 10
+[14-Sep-2017 05:14:44 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 12
+[14-Sep-2017 05:14:44 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 47
+[14-Sep-2017 05:14:44 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 82
+[21-Sep-2017 09:08:49 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config2.php on line 2
+[21-Sep-2017 16:08:49 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listnmdiklat-all.php on line 11
+[21-Sep-2017 16:08:49 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listnmdiklat-all.php on line 13
+[21-Sep-2017 09:08:49 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[21-Sep-2017 09:08:49 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 9
+[21-Sep-2017 09:08:49 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 18
+[21-Sep-2017 09:08:50 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[21-Sep-2017 09:08:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 9
+[21-Sep-2017 09:08:50 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 18
+[21-Sep-2017 09:08:50 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[21-Sep-2017 09:08:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 8
+[21-Sep-2017 09:08:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 9
+[21-Sep-2017 09:08:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 10
+[21-Sep-2017 09:08:50 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 12
+[21-Sep-2017 09:08:50 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 47
+[21-Sep-2017 09:08:50 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 82
+[21-Sep-2017 09:09:53 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config2.php on line 2
+[21-Sep-2017 16:09:53 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listnmdiklat-all.php on line 11
+[21-Sep-2017 16:09:53 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listnmdiklat-all.php on line 13
+[21-Sep-2017 09:10:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config2.php on line 2
+[21-Sep-2017 16:10:18 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listnmdiklat-all.php on line 11
+[21-Sep-2017 16:10:18 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listnmdiklat-all.php on line 13
+[21-Sep-2017 09:10:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[21-Sep-2017 09:10:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 9
+[21-Sep-2017 09:10:18 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 18
+[21-Sep-2017 09:10:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[21-Sep-2017 09:10:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 9
+[21-Sep-2017 09:10:18 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 18
+[21-Sep-2017 09:10:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bpsdmdjateng/public_html/eproper/plugins/config.php on line 2
+[21-Sep-2017 09:10:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 8
+[21-Sep-2017 09:10:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 9
+[21-Sep-2017 09:10:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 10
+[21-Sep-2017 09:10:18 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 12
+[21-Sep-2017 09:10:18 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 47
+[21-Sep-2017 09:10:18 UTC] PHP Notice:  Trying to get property of non-object in /home/bpsdmdjateng/public_html/eproper/viewgrafik.php on line 82
+[14-Nov-2017 06:23:39 UTC] PHP Notice:  Undefined variable: selectinovasi in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 18
+[14-Nov-2017 13:26:42 Asia/Jakarta] PHP Notice:  Undefined index: jenisdiklat in /home/bpsdmdjateng/public_html/eproper/listnmdiklat-all.php on line 9
+[14-Nov-2017 06:59:32 UTC] PHP Notice:  Undefined variable: selectinovasi in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 18
+[09-Jun-2018 13:39:11 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/listinovasi.php on line 23
+[09-Jun-2018 13:40:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/listinovkabkota.php on line 23
+[13-Jun-2018 06:00:18 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/detailinovasi.php on line 9
+[13-Jun-2018 06:01:26 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/detailinovasi.php on line 9
+[13-Jun-2018 06:01:46 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/detailinovasi.php on line 9
+[13-Jun-2018 07:18:15 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/detailinovasi.php on line 9
+[13-Jun-2018 07:18:52 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/detailinovasi.php on line 9
+[28-Jul-2018 16:25:10 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 23
+[28-Jul-2018 16:25:11 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 23
+[03-Aug-2018 02:21:50 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 23
+[03-Aug-2018 02:21:51 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 23
+[09-Aug-2018 00:23:26 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 23
+[09-Aug-2018 00:23:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 23
+[11-Aug-2018 13:27:38 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 23
+[11-Aug-2018 13:27:39 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 23
+[19-Aug-2018 16:14:52 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 23
+[19-Aug-2018 16:14:54 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 23
+[31-Aug-2018 02:05:40 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 23
+[31-Aug-2018 02:05:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 23
+[02-Sep-2018 10:18:03 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 23
+[02-Sep-2018 10:18:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 23
+[04-Sep-2018 08:15:20 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 23
+[04-Sep-2018 08:15:36 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 23
+[10-Sep-2018 02:46:50 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 23
+[10-Sep-2018 02:46:55 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 23
+[12-Sep-2018 01:22:29 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 23
+[12-Sep-2018 01:22:32 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 23
+[27-Sep-2018 18:47:10 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 23
+[27-Sep-2018 18:47:11 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 23
+[05-Oct-2018 21:08:58 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 23
+[05-Oct-2018 21:09:08 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 23
+[11-Oct-2018 06:38:34 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 23
+[11-Oct-2018 06:38:35 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 23
+[18-Oct-2018 18:43:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 23
+[18-Oct-2018 18:43:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 23
+[19-Oct-2018 09:17:08 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 23
+[19-Oct-2018 09:17:10 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 23
+[20-Oct-2018 20:57:16 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 23
+[20-Oct-2018 20:57:17 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 23
+[25-Oct-2018 13:51:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 23
+[04-Nov-2018 11:52:08 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 23
+[04-Nov-2018 11:52:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 23
+[08-Nov-2018 13:25:15 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 23
+[08-Nov-2018 13:25:16 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 23
+[12-Nov-2018 01:36:14 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 23
+[12-Nov-2018 01:36:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 23
+[14-Nov-2018 07:14:27 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 23
+[14-Nov-2018 07:14:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 23
+[18-Nov-2018 07:21:51 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 23
+[18-Nov-2018 07:21:53 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 23
+[22-Nov-2018 16:16:29 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 23
+[22-Nov-2018 16:16:29 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 23
+[30-Nov-2018 08:30:06 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 23
+[30-Nov-2018 08:30:07 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 23
+[04-Dec-2018 14:05:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 23
+[06-Dec-2018 16:21:16 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovasi.php on line 23
+[06-Dec-2018 16:21:16 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bpsdmdjateng/public_html/eproper/listinovkabkota.php on line 23

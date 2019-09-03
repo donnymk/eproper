@@ -1,0 +1,56 @@
+[07-May-2018 07:49:00 UTC] PHP Notice:  Undefined variable: html2pdf in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/about.php on line 20
+[07-May-2018 07:49:00 UTC] PHP Fatal error:  Call to a member function getVersion() on null in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/about.php on line 20
+[07-May-2018 07:49:00 UTC] PHP Notice:  Undefined variable: produits in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/exemple07b.php on line 79
+[07-May-2018 07:49:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/exemple07b.php on line 79
+[07-May-2018 09:19:14 UTC] PHP Notice:  Undefined variable: html2pdf in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/about.php on line 20
+[07-May-2018 09:19:14 UTC] PHP Fatal error:  Call to a member function getVersion() on null in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/about.php on line 20
+[07-May-2018 09:19:14 UTC] PHP Notice:  Undefined variable: html2pdf in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/about.php on line 20
+[07-May-2018 09:19:14 UTC] PHP Fatal error:  Call to a member function getVersion() on null in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/about.php on line 20
+[07-May-2018 09:19:14 UTC] PHP Notice:  Undefined variable: html2pdf in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/about.php on line 20
+[07-May-2018 09:19:14 UTC] PHP Fatal error:  Call to a member function getVersion() on null in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/about.php on line 20
+[07-May-2018 09:19:14 UTC] PHP Notice:  Undefined variable: html2pdf in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/about.php on line 20
+[07-May-2018 09:19:14 UTC] PHP Fatal error:  Call to a member function getVersion() on null in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/about.php on line 20
+[07-May-2018 09:19:37 UTC] PHP Notice:  Undefined variable: produits in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/exemple07b.php on line 79
+[07-May-2018 09:19:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/exemple07b.php on line 79
+[07-May-2018 09:19:38 UTC] PHP Notice:  Undefined variable: produits in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/exemple07b.php on line 79
+[07-May-2018 09:19:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/exemple07b.php on line 79
+[07-May-2018 09:19:38 UTC] PHP Notice:  Undefined variable: produits in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/exemple07b.php on line 79
+[07-May-2018 09:19:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/exemple07b.php on line 79
+[07-May-2018 09:19:38 UTC] PHP Notice:  Undefined variable: produits in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/exemple07b.php on line 79
+[07-May-2018 09:19:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/exemple07b.php on line 79
+[07-May-2018 09:23:57 UTC] PHP Notice:  Undefined variable: html2pdf in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/about.php on line 20
+[07-May-2018 09:23:57 UTC] PHP Fatal error:  Call to a member function getVersion() on null in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/about.php on line 20
+[07-May-2018 09:24:06 UTC] PHP Notice:  Undefined variable: produits in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/exemple07b.php on line 79
+[07-May-2018 09:24:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/exemple07b.php on line 79
+[07-May-2018 10:02:11 UTC] PHP Notice:  Undefined variable: html2pdf in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/about.php on line 20
+[07-May-2018 10:02:11 UTC] PHP Fatal error:  Call to a member function getVersion() on null in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/about.php on line 20
+[07-May-2018 10:02:12 UTC] PHP Notice:  Undefined variable: produits in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/exemple07b.php on line 79
+[07-May-2018 10:02:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/exemple07b.php on line 79
+[08-May-2018 11:14:14 UTC] PHP Notice:  Undefined variable: html2pdf in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/about.php on line 20
+[08-May-2018 11:14:14 UTC] PHP Fatal error:  Call to a member function getVersion() on null in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/about.php on line 20
+[08-May-2018 11:14:15 UTC] PHP Notice:  Undefined variable: produits in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/exemple07b.php on line 79
+[08-May-2018 11:14:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/exemple07b.php on line 79
+[08-May-2018 12:22:38 UTC] PHP Notice:  Undefined variable: html2pdf in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/about.php on line 20
+[08-May-2018 12:22:38 UTC] PHP Fatal error:  Call to a member function getVersion() on null in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/about.php on line 20
+[08-May-2018 12:22:38 UTC] PHP Notice:  Undefined variable: html2pdf in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/about.php on line 20
+[08-May-2018 12:22:38 UTC] PHP Fatal error:  Call to a member function getVersion() on null in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/about.php on line 20
+[08-May-2018 12:22:38 UTC] PHP Notice:  Undefined variable: html2pdf in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/about.php on line 20
+[08-May-2018 12:22:38 UTC] PHP Fatal error:  Call to a member function getVersion() on null in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/about.php on line 20
+[08-May-2018 12:22:38 UTC] PHP Notice:  Undefined variable: html2pdf in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/about.php on line 20
+[08-May-2018 12:22:38 UTC] PHP Fatal error:  Call to a member function getVersion() on null in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/about.php on line 20
+[08-May-2018 12:22:52 UTC] PHP Notice:  Undefined variable: produits in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/exemple07b.php on line 79
+[08-May-2018 12:22:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/exemple07b.php on line 79
+[08-May-2018 12:22:52 UTC] PHP Notice:  Undefined variable: produits in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/exemple07b.php on line 79
+[08-May-2018 12:22:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/exemple07b.php on line 79
+[08-May-2018 12:22:52 UTC] PHP Notice:  Undefined variable: produits in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/exemple07b.php on line 79
+[08-May-2018 12:22:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/exemple07b.php on line 79
+[08-May-2018 12:22:53 UTC] PHP Notice:  Undefined variable: produits in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/exemple07b.php on line 79
+[08-May-2018 12:22:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/exemple07b.php on line 79
+[08-May-2018 12:25:40 UTC] PHP Notice:  Undefined variable: html2pdf in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/about.php on line 20
+[08-May-2018 12:25:40 UTC] PHP Fatal error:  Call to a member function getVersion() on null in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/about.php on line 20
+[08-May-2018 12:25:43 UTC] PHP Notice:  Undefined variable: produits in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/exemple07b.php on line 79
+[08-May-2018 12:25:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/exemple07b.php on line 79
+[08-May-2018 13:04:10 UTC] PHP Notice:  Undefined variable: html2pdf in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/about.php on line 20
+[08-May-2018 13:04:10 UTC] PHP Fatal error:  Call to a member function getVersion() on null in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/about.php on line 20
+[08-May-2018 13:04:11 UTC] PHP Notice:  Undefined variable: produits in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/exemple07b.php on line 79
+[08-May-2018 13:04:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/bpsdmdjateng/public_html/bpsdmdjateng_eproper/plugins/vendor/spipu/html2pdf/examples/res/exemple07b.php on line 79
