@@ -21,6 +21,7 @@ $hasildata = $data->rowcount($sheet_index=0);
 // default nilai
 $sukses = 0;
 $gagal = 0;
+$pesan_gagal = '';
 
 for ($i=2; $i<=$hasildata; $i++){
     $data1 = $data->val($i,1);
@@ -36,15 +37,20 @@ for ($i=2; $i<=$hasildata; $i++){
     $query = "INSERT INTO user(`user`,`password`,`nama`,`nip`,`jabatan`,`skpd`,`namadiklat`,`jenisdiklat`,`tipe`) VALUES ('".$data1."','".enkrip($data2)."','".mysqli_real_escape_string($con,$data3)."','".$data4."','".mysqli_real_escape_string($con,$data5)."','".$data6."','".$namadiklat__."','".$jenisdiklat__."','internal')";
     $hasil = mysqli_query($con,$query);
 
-    if ($hasildata) {
+    if ($hasil) {
         $sukses++;
-    } else {
+        echo "<pre>";
+        print_r($query);
+        echo "</pre>";
+    }
+    else {
         $gagal++;
+        echo "<pre>";
+        echo mysqli_error($con);
+        echo "</pre>";
     }
 
-    echo "<pre>";
-    print_r($query);
-    echo "</pre>";
+
 
 }
 echo "<b>import data selesai.</b> <br>";
