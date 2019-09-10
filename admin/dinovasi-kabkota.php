@@ -66,6 +66,7 @@ include '../plugins/session_kabkota.php';
             <ul class="w3-navbar w3-teal w3-round">               
                 <li><a class="w3-hover-blue-grey" href="./">Daftarkan Inovasi</a></li>
                 <li><a class="w3-blue-grey" href="dinovasi.php">Direktori Inovasi</a></li>
+                <li><a class="w3-hover-blue-grey" href="dinortl.php">Direktori RTL</a></li>
                 <li class="w3-right w3-dropdown-click">
                     <a onclick="menuLogin()" class="w3-hover-blue-grey" href="javascript:;">
                         <span class="glyphicon glyphicon-user"></span> <?= $_SESSION['kabkota'].' '.$_SESSION['nama'] ?> <span class="caret"></span>

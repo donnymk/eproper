@@ -36,12 +36,12 @@
             }        
             echo '<tr>
             <td>'.$no.'</td>
-            <td><a class="tautan" href="inovasi.php?id='.$baris['id'].'">'.strtoupper($baris['judul']).'</a></td>
-            <td>'.$baris['namadiklat'].'</td>
-            <td>'.$baris['nama'].'</td>
-            <td>'.$baris['pemda'].'</td>
+            <td><a class="tautan" href="inovasi.php?id='.htmlspecialchars($baris['id']).'">'.strtoupper(htmlspecialchars($baris['judul'])).'</a></td>
+            <td>'.htmlspecialchars($baris['namadiklat']).'</td>
+            <td>'.htmlspecialchars($baris['nama']).'</td>
+            <td>'.htmlspecialchars($baris['pemda']).'</td>
             <td><small>'.$baris['tglsubmit'].'</small><br>'.$status.'</td>
-            <td>'.$btnveri.'<a href="editinovasi.php?id='.$baris['id'].'" title="edit"><span class="glyphicon glyphicon-edit"></span></a></td>
+            <td>'.$btnveri.'<a href="editinovasi.php?id='.htmlspecialchars($baris['id']).'" title="edit"><span class="glyphicon glyphicon-edit"></span></a></td>
            </tr>';
         }        
     }

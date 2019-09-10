@@ -26,7 +26,7 @@ include '../plugins/session_admin.php';
         </style>         
     </head>
     <body>
-        <div class="container">
+        <div class="container" style="background-color: white; border-radius: 7px;">
             <div class="row">
                 <div class="col-md-12">
                     <div id="logojateng" style="float: left; margin-right: 10px; margin-top: 4px">
@@ -43,6 +43,7 @@ include '../plugins/session_admin.php';
                     <ul class="w3-navbar w3-pink w3-round">
                         <li><a class="w3-blue-grey" href="./">Direktori Inovasi</a></li>
                         <li><a class="w3-hover-blue-grey" href="dinokabkota.php">Inovasi dari Kab / Kota</a></li>
+                        <li><a class="w3-hover-blue-grey" href="dinortl.php">Direktori RTL</a></li>
 <!--                        <li><a class="w3-hover-blue-grey" href="lihatuser.php">Kelola user</a></li>
                         <li><a class="w3-hover-blue-grey" href="lihatuser1.php">User Kabkota</a></li>-->
                         <li class="w3-right w3-dropdown-click">
@@ -63,7 +64,7 @@ include '../plugins/session_admin.php';
                <select class="form-control" id="namadiklat" name="namadiklat" required>
                </select>
             </div>
-            <div class="panel panel-default">
+            <div class="panel panel-default" style="box-shadow: 0px 5px 10px lightgray; border: solid 1px lightgray;">
                 <div class="panel-body">            
                     <table class="table table-striped table-bordered" id="tableinov">
                         <thead>

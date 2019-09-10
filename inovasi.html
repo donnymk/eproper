@@ -22,7 +22,7 @@ body {
 
     </head>
     <body>
-        <div class="container">
+        <div class="container" style="background-color: white; border-radius: 7px;">
             <div class="row">
                 <div class="col-md-12">
                     <!--<div id="logojateng" style="float: left; margin-right: 10px; margin-top: 4px">
@@ -72,72 +72,76 @@ body {
            <br>
            <small><a class="tautan" href="./">Direktori inovasi</a></small> » <small id="navjudul"></small><small id="btn-print"></small>
             <br><br>
-            <div style="max-width: 215mm; margin: auto">
-                <div class="panel panel-default">
-                    <div class="panel-heading w3-blue-grey w3-padding-ver-64">
-                        <h3 id="inovasi"><span class="fa fa-spinner fa-spin"></span></h3>
-                    </div>
-                    <div class="panel-body w3-padding-ver-64 w3-padding-48">
-                        <table>
-                            <tr>
-                                <td><b>Nama Diklat</b></td>
-                                <td>:</td>
-                                <td id="viewnmdiklat"><span class="fa fa-spinner fa-spin"></span></td>
-                            </tr>
-                            <tr>
-                                <td><b>Tahun</b></td>
-                                <td>:</td>
-                                <td id="viewtahun"><span class="fa fa-spinner fa-spin"></span></td>
-                            </tr>
-                            <tr>
-                                <td><b>Ruang lingkup inovasi</b></td>
-                                <td>:</td>
-                                <td id="viewkelompok"><span class="fa fa-spinner fa-spin"></span></td>
-                            </tr>
-                            <tr>
-                                <td><b>Cluster inovasi</b></td>
-                                <td>:</td>
-                                <td id="viewjenisinov"><span class="fa fa-spinner fa-spin"></span></td>
-                            </tr>
-                            <tr>
-                                <td><b>Inovator</b></td>
-                                <td>:</td>
-                                <td id="viewnama"><span class="fa fa-spinner fa-spin"></span></td>
-                            </tr>
-                            <tr>
-                                <td><b>Jabatan</b></td>
-                                <td>:</td>
-                                <td id="viewjabatan"><span class="fa fa-spinner fa-spin"></span></td>
-                            </tr>
-                            <tr>
-                                <td><b>Instansi pengirim</b></td>
-                                <td>:</td>
-                                <td id="viewskpd"><span class="fa fa-spinner fa-spin"></span></td>
-                            </tr>
-                            <tr>
-                                <td><b>Pemda</b></td>
-                                <td>:</td>
-                                <td id="viewpemda"><span class="fa fa-spinner fa-spin"></span></td>
-                            </tr>
-                        </table>
-                        <hr>
-                        <label>Latar Belakang</label>:
-                        <p id="viewlatarblkg" style="text-align: justify">
-                            <span class="fa fa-spinner fa-spin"></span>
-                        </p>
-                        <hr>
-                        <label>Manfaat</label>:
-                        <p id="viewmanfaat" style="text-align: justify">
-                            <span class="fa fa-spinner fa-spin"></span>
-                        </p>
-                        <hr>
-                        <label>Milestone</label>:
-                        <p id="viewmilestone" class="table-responsive">
-                            <span class="fa fa-spinner fa-spin"></span>
-                        </p>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <div class="panel panel-default" style="box-shadow: 0px 5px 10px lightgray; border: solid 1px lightgray;">
+                        <div class="panel-heading w3-blue-grey w3-padding-ver-64">
+                            <h3 id="inovasi"><span class="fa fa-spinner fa-spin"></span></h3>
+                        </div>
+                        <div class="panel-body w3-padding-ver-64 w3-padding-48">
+                            <table>
+                                <tr>
+                                    <td><b>Nama Diklat</b></td>
+                                    <td>:</td>
+                                    <td id="viewnmdiklat"><span class="fa fa-spinner fa-spin"></span></td>
+                                </tr>
+                                <tr>
+                                    <td><b>Tahun</b></td>
+                                    <td>:</td>
+                                    <td id="viewtahun"><span class="fa fa-spinner fa-spin"></span></td>
+                                </tr>
+                                <tr>
+                                    <td><b>Ruang lingkup inovasi</b></td>
+                                    <td>:</td>
+                                    <td id="viewkelompok"><span class="fa fa-spinner fa-spin"></span></td>
+                                </tr>
+                                <tr>
+                                    <td><b>Cluster inovasi</b></td>
+                                    <td>:</td>
+                                    <td id="viewjenisinov"><span class="fa fa-spinner fa-spin"></span></td>
+                                </tr>
+                                <tr>
+                                    <td><b>Inovator</b></td>
+                                    <td>:</td>
+                                    <td id="viewnama"><span class="fa fa-spinner fa-spin"></span></td>
+                                </tr>
+                                <tr>
+                                    <td><b>Jabatan</b></td>
+                                    <td>:</td>
+                                    <td id="viewjabatan"><span class="fa fa-spinner fa-spin"></span></td>
+                                </tr>
+                                <tr>
+                                    <td><b>Instansi pengirim</b></td>
+                                    <td>:</td>
+                                    <td id="viewskpd"><span class="fa fa-spinner fa-spin"></span></td>
+                                </tr>
+                                <tr>
+                                    <td><b>Pemda</b></td>
+                                    <td>:</td>
+                                    <td id="viewpemda"><span class="fa fa-spinner fa-spin"></span></td>
+                                </tr>
+                            </table>
+                            <hr>
+                            <label>Latar Belakang</label>:
+                            <p id="viewlatarblkg" style="text-align: justify">
+                                <span class="fa fa-spinner fa-spin"></span>
+                            </p>
+                            <hr>
+                            <label>Manfaat</label>:
+                            <p id="viewmanfaat" style="text-align: justify">
+                                <span class="fa fa-spinner fa-spin"></span>
+                            </p>
+                            <hr>
+                            <label>Milestone</label>:
+                            <p id="viewmilestone" class="table-responsive">
+                                <span class="fa fa-spinner fa-spin"></span>
+                            </p>
 
+                        </div>
                     </div>
                 </div>
+                <div class="col-md-1"></div>
             </div>
         </div>
 

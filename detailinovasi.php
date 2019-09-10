@@ -18,15 +18,15 @@
                 "tahun" => $baris["tahun"],
                 "kelompok" => $baris["kelompok"],
                 "jenisinovasi" => $baris["jenis_inovasi"],
-                "judul" => strtoupper($baris["judul"]),
+                "judul" => strtoupper(htmlspecialchars($baris["judul"])),
                 "latarbelakang" => $baris["latarbelakang"],
                 "manfaat" => $baris["manfaat"],
                 "milestone" => $baris["milestone"],
-                "nip" => $baris["nip"],
-                "nama" => $baris["nama"],
-                "jabatan" => $baris["jabatan"],
-                "skpd" => $baris["skpd"],
-                "pemda" => $baris["pemda"]
+                "nip" => htmlspecialchars($baris["nip"]),
+                "nama" => htmlspecialchars($baris["nama"]),
+                "jabatan" => htmlspecialchars($baris["jabatan"]),
+                "skpd" => htmlspecialchars($baris["skpd"]),
+                "pemda" => htmlspecialchars($baris["pemda"])
             ]
             );
     }
