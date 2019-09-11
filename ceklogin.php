@@ -1,4 +1,6 @@
 <?php
+//
+
 session_start();
 
 if (isset($_POST['username'])) {
@@ -22,7 +24,7 @@ if (isset($_POST['username'])) {
         $password_database=$cocok['password'];
         $tipe_user=$cocok['tipe'];
 
-        if ($password_database == enkrip($password_login)){
+        if ($password_database == md5($password_login)){ //enkrip($password_login)
             if($tipe_user=='superadmin'){
                 $_SESSION['superadmin'] = $username_login;
                 $_SESSION['nama'] = $cocok['nama'];
@@ -41,6 +43,18 @@ if (isset($_POST['username'])) {
                 $_SESSION['namadiklat'] = $cocok['namadiklat'];
                 $_SESSION['jenisdiklat'] = $cocok['jenisdiklat'];
                 echo 'kabkota';
+            }
+            else if($tipe_user=='fungsional')
+            {
+                $_SESSION['user'] = $username_login;
+                $_SESSION['nama'] = $cocok['nama'];
+                $_SESSION['nip'] = $cocok['nip'];
+                $_SESSION['jabatan'] = $cocok['jabatan'];
+                $_SESSION['skpd'] = $cocok['skpd'];
+                $_SESSION['namadiklat'] = $cocok['namadiklat'];
+                $_SESSION['jenisdiklat'] = $cocok['jenisdiklat'];
+                        //$_SESSION['password'] = $password_login;
+                echo "fungsional";
             }
             else{
                 $_SESSION['user'] = $username_login;

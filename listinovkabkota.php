@@ -37,7 +37,7 @@
                 $status='<small><span class="label label-success" title="telah diverifikasi pada '.$baris['tglveri'].'">•</span></small>';
                 $btnveri='';
             }
-            echo '<tr><td><center>'.$no.'</center></td><td><a class="tautan" href="inovasi.html?id='.$baris['id'].'">'.strtoupper($baris['judul']).'</a></td><td>'.$baris['nama'].'</td></tr>';
+            echo '<tr><td><center>'.$no.'</center></td><td><a class="tautan" href="inovasi.html?id='.htmlspecialchars($baris['id']).'">'.strtoupper(htmlspecialchars($baris['judul'])).'</a></td><td>'.htmlspecialchars($baris['nama']).'</td></tr>';
         }        
     }
 
