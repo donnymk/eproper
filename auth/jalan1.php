@@ -36,15 +36,17 @@ for ($i=2; $i<=$hasildata; $i++){
     $query = "INSERT INTO user(`user`,`password`,`nama`,`nip`,`jabatan`,`skpd`,`namadiklat`,`jenisdiklat`,`tipe`) VALUES ('".$data1."','".enkrip($data2)."','".$data3."','".$data4."','".$data5."','".$data6."','".$namadiklat__."','".$jenisdiklat__."','kabkota')";
     $hasil = mysqli_query($con,$query);
 
-    if ($hasildata) {
+    if ($hasil) {
         $sukses++;
+        echo "<pre>";
+        print_r($query);
+        echo "</pre>";        
     } else {
         $gagal++;
+        echo "<pre>";
+        echo mysqli_error($con);
+        echo "</pre>";        
     }
-
-    echo "<pre>";
-    print_r($query);
-    echo "</pre>";
 
 }
 echo "<b>import data selesai.</b> <br>";
