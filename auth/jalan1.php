@@ -47,7 +47,6 @@ for ($i=2; $i<=$hasildata; $i++){
         echo mysqli_error($con);
         echo "</pre>";        
     }
-
 }
 echo "<b>import data selesai.</b> <br>";
 echo "Data yang berhasil di import : " . $sukses .  "<br>";
