@@ -162,10 +162,10 @@ if($_SESSION['nip'] != $baris['nip']){
                                 <label>Latar Belakang</label>:
                                 <textarea name="viewlatarblkg" id="viewlatarblkg"></textarea>
                                 <br>
-                                <label>Manfaat</label>:
+                                <label>Maksud & Tujuan</label>:
                                 <textarea name="viewmanfaat" id="viewmanfaat"></textarea>
                                 <br>
-                                <label>Milestone</label>:
+                                <label>Kesimpulan</label>:
                                 <textarea name="viewmilestone" id="viewmilestone"></textarea>
                                 <br>
                                 <button class="w3-btn w3-right w3-deep-orange" type="submit"><b>Perbarui</b></button>

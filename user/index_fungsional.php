@@ -234,7 +234,7 @@
                         <div class="row">
                             <div class="col-md-10">
                                 <div class="form-group">                    
-                                    <label>Manfaat</label>
+                                    <label>Maksud & Tujuan</label>
                                     <textarea class="form-control" id="manfaat" name="manfaat" required></textarea>
                                 </div>
                             </div>
@@ -242,7 +242,7 @@
                         <div class="row">
                             <div class="col-md-10">
                                 <div class="form-group">                    
-                                    <label>Milestone</label>
+                                    <label>Kesimpulan</label>
                                     <textarea class="form-control" id="milestone" name="milestone" required="required"></textarea>
                                 </div>
                             </div>

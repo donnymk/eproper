@@ -4,7 +4,7 @@
  * Created by:
  * DONNY MALIK KURNIAWAN (bossdony@gmail.com)
  */
-include '../plugins/session_admin.php';
+include '../plugins/session_superadmin.php';
 ?>
 
 <!DOCTYPE html>
@@ -34,20 +34,21 @@ include '../plugins/session_admin.php';
                     <div>
                         <h3 style="float: left"><b>Pusat Inovasi Kepemimpinan</b></h3>
                         <h4 style="float: right">BPSDMD Provinsi Jawa Tengah</h4>
-                    </div>                    
+                    </div>                   
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">            
                     <ul class="w3-navbar w3-pink w3-round">
                         <li><a class="w3-hover-blue-grey" href="./">Direktori Inovasi</a></li>
+                        <li><a class="w3-blue-grey" href="dir_rtl.php">Direktori RTL</a></li>
                         <li><a class="w3-hover-blue-grey" href="dinokabkota.php">Inovasi dari Kab / Kota</a></li>
-                        <li><a class="w3-blue-grey" href="dinortl.php">Direktori RTL</a></li>
-<!--                        <li><a class="w3-hover-blue-grey" href="lihatuser.php">Kelola user</a></li>
-                        <li><a class="w3-hover-blue-grey" href="lihatuser1.php">User Kabkota</a></li>-->
+                        <li><a class="w3-hover-blue-grey" href="lihatuser.php">Kelola user e-proper</a></li>
+                        <li><a class="w3-hover-blue-grey" href="lihatuser_rtl.php">Kelola user RTL</a></li>
+                        <li><a class="w3-hover-blue-grey" href="lihatuser1.php">User Kabkota</a></li>
                         <li class="w3-right w3-dropdown-click">
                             <a onclick="menuLogin()" class="w3-hover-blue-grey" href="javascript:;">
-                                <span class="glyphicon glyphicon-user"></span> Admin Eproper <span class="caret"></span>
+                                <span class="glyphicon glyphicon-user"></span> Super Admin Eproper <span class="caret"></span>
                             </a>
                             <div id="demo" class="w3-dropdown-content w3-white w3-card-4">
                                 <a class="w3-hover-blue-grey" href="logout.php"> <span class="glyphicon glyphicon-log-out"></span> Logout</a>
@@ -57,7 +58,7 @@ include '../plugins/session_admin.php';
                 </div>
             </div>
             <br>
-            <small><a class="tautan" href="dinortl.php">Direktori RTL</a></small> » <small id="navjudul"></small> » <small>Edit RTL</small>
+            <small><a class="tautan" href="dir_rtl.php">Direktori RTL</a></small> » <small id="navjudul"></small> » <small>Edit RTL</small>
             <br><br>
             <div class="row">
                 <div class="col-md-1"></div>
@@ -197,7 +198,7 @@ include '../plugins/session_admin.php';
                                             <option value="Kementerian / Lembaga Pusat">Kementerian / Lembaga Pusat</option>
                                         </select>                                    
                                     </td>
-                                </tr>
+                                </tr>                            
                             </table>
                             <br>
                             <label>Latar Belakang</label>:

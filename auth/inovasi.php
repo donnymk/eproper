@@ -27,7 +27,7 @@ include '../plugins/session_superadmin.php';
 
     </head>
     <body>
-        <div class="container">
+        <div class="container" style="background-color: white; border-radius: 7px;">
             <div class="row">
                 <div class="col-md-12">
                     <div id="logojateng" style="float: left; margin-right: 10px; margin-top: 4px">
@@ -42,9 +42,11 @@ include '../plugins/session_superadmin.php';
             <div class="row">
                 <div class="col-md-12">
                     <ul class="w3-navbar w3-pink w3-round">
-                        <li><a class="w3-hover-blue-grey" href="./">Direktori Inovasi</a></li>
+                        <li><a class="w3-blue-grey" href="./">Direktori Inovasi</a></li>
+                        <li><a class="w3-hover-blue-grey" href="dir_rtl.php">Direktori RTL</a></li>
                         <li><a class="w3-hover-blue-grey" href="dinokabkota.php">Inovasi dari Kab / Kota</a></li>
-                        <li><a class="w3-hover-blue-grey" href="lihatuser.php">Kelola user</a></li>
+                        <li><a class="w3-hover-blue-grey" href="lihatuser.php">Kelola user e-proper</a></li>
+                        <li><a class="w3-hover-blue-grey" href="lihatuser_rtl.php">Kelola user RTL</a></li>
                         <li><a class="w3-hover-blue-grey" href="lihatuser1.php">User Kabkota</a></li>
                         <li class="w3-right w3-dropdown-click">
                             <a onclick="menuLogin()" class="w3-hover-blue-grey" href="javascript:;">
@@ -61,75 +63,85 @@ include '../plugins/session_superadmin.php';
             <br>
             <small><a class="tautan" href="./">Direktori inovasi</a></small> » <small id="navjudul"></small>
             <br><br>
-            <div style="max-width: 800px; margin: auto">
-                <div class="panel panel-default">
-                    <div class="panel-heading w3-blue-grey w3-padding-ver-64">
-                        <h3 id="inovasi"><span class="fa fa-spinner fa-spin"></span></h3>
-                    </div>
-                    <div class="panel-body w3-padding-ver-64 w3-padding-48">
-                        <table>
-                            <tr>
-                                <td>Nama Diklat</td>
-                                <td>:</td>
-                                <td id="viewnmdiklat"><span class="fa fa-spinner fa-spin"></span></td>
-                            </tr>
-                            <tr>
-                                <td>Tahun</td>
-                                <td>:</td>
-                                <td id="viewtahun"><span class="fa fa-spinner fa-spin"></span></td>
-                            </tr>
-                            <tr>
-                                <td>Ruang lingkup inovasi</td>
-                                <td>:</td>
-                                <td id="viewkelompok"><span class="fa fa-spinner fa-spin"></span></td>
-                            </tr>
-                            <tr>
-                                <td>Cluster inovasi</td>
-                                <td>:</td>
-                                <td id="viewjenisinov"><span class="fa fa-spinner fa-spin"></span></td>
-                            </tr>
-                            <tr>                            
-                                <td>Inovator</td>
-                                <td>:</td>
-                                <td>
-                                    <p id="viewnama"><span class="fa fa-spinner fa-spin"></span></p>
-                                    <p id="viewnip"></p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Jabatan</td>
-                                <td>:</td>
-                                <td id="viewjabatan"><span class="fa fa-spinner fa-spin"></span></td>
-                            </tr>
-                            <tr>
-                                <td>SKPD</td>
-                                <td>:</td>
-                                <td id="viewskpd"><span class="fa fa-spinner fa-spin"></span></td>
-                            </tr>
-                            <tr>
-                                <td>Pemda</td>
-                                <td>:</td>
-                                <td id="viewpemda"><span class="fa fa-spinner fa-spin"></span></td>
-                            </tr>
-                        </table>
-                        <br>
-                        <label>Latar Belakang</label>:
-                        <p id="viewlatarblkg" style="text-align: justify">
-                            <span class="fa fa-spinner fa-spin"></span>
-                        </p>
-                        <hr>
-                        <label>Manfaat</label>:
-                        <p id="viewmanfaat" style="text-align: justify">
-                            <span class="fa fa-spinner fa-spin"></span>
-                        </p>
-                        <hr>
-                        <label>Milestone</label>:
-                        <p id="viewmilestone" class="table-responsive">
-                            <span class="fa fa-spinner fa-spin"></span>
-                        </p>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <div class="panel panel-default" style="box-shadow: 0px 5px 10px lightgray; border: solid 1px lightgray;">
+                        <div class="panel-heading w3-blue-grey w3-padding-ver-64">
+                            <h3 id="inovasi"><span class="fa fa-spinner fa-spin"></span></h3>
+                        </div>
+                        <div class="panel-body w3-padding-ver-64 w3-padding-48">
+                            <table>
+                                <tr>
+                                    <td>Nama Diklat</td>
+                                    <td>:</td>
+                                    <td id="viewnmdiklat"><span class="fa fa-spinner fa-spin"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Tahun</td>
+                                    <td>:</td>
+                                    <td id="viewtahun"><span class="fa fa-spinner fa-spin"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Ruang lingkup inovasi</td>
+                                    <td>:</td>
+                                    <td id="viewkelompok"><span class="fa fa-spinner fa-spin"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Cluster inovasi</td>
+                                    <td>:</td>
+                                    <td id="viewjenisinov"><span class="fa fa-spinner fa-spin"></span></td>
+                                </tr>
+                                <tr>                            
+                                    <td>Inovator</td>
+                                    <td>:</td>
+                                    <td>
+                                        <p id="viewnama"><span class="fa fa-spinner fa-spin"></span></p>
+                                    </td>
+                                </tr>
+                                <tr>                            
+                                    <td>NIP</td>
+                                    <td>:</td>
+                                    <td>
+                                        <p id="viewnip"></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Jabatan</td>
+                                    <td>:</td>
+                                    <td id="viewjabatan"><span class="fa fa-spinner fa-spin"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>SKPD</td>
+                                    <td>:</td>
+                                    <td id="viewskpd"><span class="fa fa-spinner fa-spin"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Pemda</td>
+                                    <td>:</td>
+                                    <td id="viewpemda"><span class="fa fa-spinner fa-spin"></span></td>
+                                </tr>
+                            </table>
+                            <br>
+                            <label>Latar Belakang</label>:
+                            <p id="viewlatarblkg" style="text-align: justify">
+                                <span class="fa fa-spinner fa-spin"></span>
+                            </p>
+                            <hr>
+                            <label>Manfaat</label>:
+                            <p id="viewmanfaat" style="text-align: justify">
+                                <span class="fa fa-spinner fa-spin"></span>
+                            </p>
+                            <hr>
+                            <label>Milestone</label>:
+                            <p id="viewmilestone" class="table-responsive">
+                                <span class="fa fa-spinner fa-spin"></span>
+                            </p>
 
+                        </div>
                     </div>
                 </div>
+                <div class="col-md-1"></div>
             </div>
         </div>
         <script src="../assets/js/jquery.min.js" type="text/javascript"></script>

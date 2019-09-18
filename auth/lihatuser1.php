@@ -27,7 +27,7 @@ include '../plugins/session_superadmin.php';
         </style>         
     </head>
     <body>
-        <div class="container">
+        <div class="container" style="background-color: white; border-radius: 7px;">
             <div class="row">
                 <div class="col-md-12">
                     <div id="logojateng" style="float: left; margin-right: 10px; margin-top: 4px">
@@ -43,8 +43,10 @@ include '../plugins/session_superadmin.php';
                 <div class="col-md-12">
                     <ul class="w3-navbar w3-pink w3-round">
                         <li><a class="w3-hover-blue-grey" href="./">Direktori Inovasi</a></li>
+                        <li><a class="w3-hover-blue-grey" href="dir_rtl.php">Direktori RTL</a></li>
                         <li><a class="w3-hover-blue-grey" href="dinokabkota.php">Inovasi dari Kab / Kota</a></li>
-                        <li><a class="w3-hover-blue-grey" href="lihatuser.php">Kelola user</a></li>
+                        <li><a class="w3-hover-blue-grey" href="lihatuser.php">Kelola user e-proper</a></li>
+                        <li><a class="w3-hover-blue-grey" href="lihatuser_rtl.php">Kelola user RTL</a></li>
                         <li><a class="w3-blue-grey" href="lihatuser1.php">User Kabkota</a></li>
                         <li class="w3-right w3-dropdown-click">
                             <a onclick="menuLogin()" class="w3-hover-blue-grey" href="javascript:;">
@@ -60,9 +62,9 @@ include '../plugins/session_superadmin.php';
 
             <h3>User Peserta Kabkota</h3>
             <br>
-            <a class="tautan" href="tambahuser1.php">Tambah user baru</a>
+            <a class="tautan" href="tambahuser1.php"><button type="button" class="btn btn-primary"><i class="glyphicon glyphicon-plus"></i> <b>Tambah user baru</b></button></a>
             <br><br>            
-            <div class="panel panel-default">
+            <div class="panel panel-default" style="box-shadow: 0px 5px 10px lightgray; border: solid 1px lightgray;">
                 <div class="panel-body">
                     <form action="admdeluserall1.php" method="post">
                         <table class="table table-striped table-bordered" id="tableinov">

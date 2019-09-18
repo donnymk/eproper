@@ -127,12 +127,12 @@ include '../plugins/session_admin.php';
                                 <span class="fa fa-spinner fa-spin"></span>
                             </p>
                             <hr>
-                            <label>Manfaat</label>:
+                            <label>Maksud & Tujuan</label>:
                             <p id="viewmanfaat" style="text-align: justify">
                                 <span class="fa fa-spinner fa-spin"></span>
                             </p>
                             <hr>
-                            <label>Milestone</label>:
+                            <label>Kesimpulan</label>:
                             <p id="viewmilestone" class="table-responsive">
                                 <span class="fa fa-spinner fa-spin"></span>
                             </p>
