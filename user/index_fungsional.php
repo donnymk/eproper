@@ -7,7 +7,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Daftarkan Inovasi - Badan Pengembangan Sumber Daya Manusia Daerah Provinsi Jawa Tengah</title>
+        <title>Daftarkan RTL - Badan Pengembangan Sumber Daya Manusia Daerah Provinsi Jawa Tengah</title>
         <link href='../assets/img/logo_jawa_tengah_icon.ico' rel='icon' type='image/x-icon'>
         <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="../assets/css/w3.css" rel="stylesheet" type="text/css"/>
@@ -29,7 +29,7 @@
                        <img src="../assets/img/logo_jawa_tengah_icon.ico" height="32" alt="">
                     </div>
                     <div>
-                        <h3 style="float: left"><b>Pusat Inovasi Kepemimpinan</b></h3>
+                        <h3 style="float: left"><b>Direktori Rencana Tindak Lanjut</b></h3>
                         <h4 style="float: right">BPSDMD Provinsi Jawa Tengah</h4>
                     </div>                    
                 </div>
@@ -91,27 +91,29 @@
                                    <input class="form-control" id="nip" type="text" name="nip" disabled="" value="<?= $_SESSION['nip'] ?>">
                                 </div>
                             </div>                            
-                            <div class="col-md-3">
+                            <div class="col-md-5">
                                 <div class="form-group">
                                    <label>Nama</label>
                                    <input class="form-control" id="nama" type="text" name="nama" value="<?= $_SESSION['nama'] ?>" required>
                                 </div>
                             </div>
-                            <div class="col-md-5">
-                                <div class="form-group">                    
-                                    <label>Jabatan</label>
-                                    <input type="text" class="form-control" id="jabatan" name="jabatan" value="<?= $_SESSION['jabatan'] ?>" required>
-                                </div>
-                            </div>
                         </div>
+                    <div class="row">
+                        <div class="col-md-11">
+                            <div class="form-group">                    
+                                <label>Jabatan</label>
+                                <input type="text" class="form-control" id="jabatan" name="jabatan" value="<?= $_SESSION['jabatan'] ?>" required>
+                            </div>                            
+                        </div>
+                    </div>
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-7">
                                 <div class="form-group">                    
                                     <label>SKPD</label>
                                     <input class="form-control" id="skpd" type="text" name="skpd"value="<?= $_SESSION['skpd'] ?>" required>                                   
                                 </div>
                             </div>
-                            <div class="col-md-5">
+                            <div class="col-md-4">
                                 <div class="form-group">                    
                                     <label>Pemda</label>
                                     <select type="text" class="form-control" name="pemda" required>
@@ -170,7 +172,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-5">
+                            <div class="col-sm-4">
                                 <div class="form-group">                    
                                     <label>Ruang Lingkup</label>
                                     <select class="form-control" id="ruanglingkup" name="ruanglingkup" required>
@@ -184,7 +186,7 @@
                                     </select>                            
                                 </div>
                             </div>
-                            <div class="col-sm-5">
+                            <div class="col-sm-6">
                                 <div class="form-group">                    
                                     <label>Cluster</label>
                                     <select class="form-control" id="cluster" name="cluster" required>

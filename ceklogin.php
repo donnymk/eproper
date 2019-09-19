@@ -24,7 +24,7 @@ if (isset($_POST['username'])) {
         $password_database=$cocok['password'];
         $tipe_user=$cocok['tipe'];
 
-        if ($password_database == md5($password_login)){ //enkrip($password_login)
+        if ($password_database == enkrip($password_login)){ //enkrip($password_login)
             if($tipe_user=='superadmin'){
                 $_SESSION['superadmin'] = $username_login;
                 $_SESSION['nama'] = $cocok['nama'];

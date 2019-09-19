@@ -1,7 +1,7 @@
 <?php
 include "../plugins/excel_reader2.php";
 include "../plugins/config.php";
-//include "../plugins/enkrip-dekrip.php";
+include "../plugins/enkrip-dekrip.php";
 
 
 $jenisdiklat = $_POST['jenisdiklat'];
@@ -37,7 +37,7 @@ for ($i=2; $i<=$hasildata; $i++)
 
     //$query = "INSERT INTO user(`user`,`password`,`nama`,`nip`,`jabatan`,`skpd`,`namadiklat`,`jenisdiklat`,`tipe`) VALUES ('".$data1."','".enkrip($data2)."','".mysqli_real_escape_string($con,$data3)."','".$data4."','".mysqli_real_escape_string($con,$data5)."','".$data6."','".$namadiklat__."','".$jenisdiklat__."','internal')";
 
-    $query = "INSERT INTO user(`user`,`password`,`nama`,`nip`,`jabatan`,`skpd`,`namadiklat`,`jenisdiklat`,`tipe`) VALUES ('".$data1."','".$data2."','".mysqli_real_escape_string($con,$data3)."','".$data4."','".mysqli_real_escape_string($con,$data5)."','".$data6."','".$namadiklat__."','".$jenisdiklat__."','internal')";
+    $query = "INSERT INTO user(`user`,`password`,`nama`,`nip`,`jabatan`,`skpd`,`namadiklat`,`jenisdiklat`,`tipe`) VALUES ('".$data1."','".enkrip($data2)."','".mysqli_real_escape_string($con,$data3)."','".$data4."','".mysqli_real_escape_string($con,$data5)."','".$data6."','".$namadiklat__."','".$jenisdiklat__."','fungsional')";
     $hasil = mysqli_query($con,$query);
 
     if ($hasil) {

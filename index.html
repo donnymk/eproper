@@ -90,9 +90,7 @@ body {
                                     <div class="tab-pane active" id="tab_1-1">
                                         <div class="form-group">
                                             <select class="form-control" id="namadiklat" name="namadiklat" required></select>
-                                        </div>
-                                        <div id="loading"></div>
-                                        <br>                         
+                                        </div>                       
                                         <table class="table table-striped table-bordered" id="tableinov">
                                             <thead>
                                                 <tr class="w3-blue-grey">
@@ -107,9 +105,7 @@ body {
                                     <div class="tab-pane" id="tab_2-2">
                                         <div class="form-group">
                                             <select class="form-control" id="listkabkota" name="listkabkota" required></select>
-                                        </div>
-                                        <div id="loading1"></div>  
-                                        <br>                          
+                                        </div>                        
                                         <table class="table table-striped table-bordered" id="tableinov1">
                                             <thead>
                                                 <tr class="w3-blue-grey">
@@ -134,7 +130,6 @@ body {
                                     <div class="form-group">                    
                                        <select class="form-control" id="namadiklat_f" name="namadiklat_f" required></select>
                                     </div>
-                                                      
                                     <table class="table table-striped table-bordered" id="tablertl">
                                         <thead>
                                             <tr class="w3-blue-grey">
@@ -283,15 +278,14 @@ body {
             
             $('#namadiklat').on('change',function(){
                var namadiklat = $(this).val();
-               $('#loading').html('<img src="assets/img/bgLoad1.gif">');
+               $('#isiinovasi').html('<tr><td colspan="100%"><img src="assets/img/bgLoad1.gif"></td></tr>');;
                 $.ajax({
                     url: 'listinovasi.php',
                     type: 'POST',
                     data: 'namadiklat='+namadiklat,
                     //async: false,
                     cache:true,
-                    success: function(updinov){
-                        $('#loading').html('');                        
+                    success: function(updinov){                      
                         $("#tableinov").DataTable().destroy();
                         $('#isiinovasi').html(updinov);
                         $('#tableinov').dataTable({
@@ -304,15 +298,14 @@ body {
             
             $('#listkabkota').on('change',function(){
                var nmkabkota = $(this).val();
-               $('#loading').html('<img src="../assets/img/bgLoad1.gif">');
+               $('#isiinovasi1').html('<tr><td colspan="100%"><img src="assets/img/bgLoad1.gif"></td></tr>');
                 $.ajax({
                     url: 'listinovkabkota.php',
                     type: 'POST',
                     data: 'nmkabkota='+nmkabkota,
                     //async: false,
                     cache:true,
-                    success: function(updinov1){
-                        $('#loading').html('');                       
+                    success: function(updinov1){                      
                         $("#tableinov1").DataTable().destroy();
                         $('#isiinovasi1').html(updinov1);
                         $('#tableinov1').dataTable({
@@ -321,7 +314,27 @@ body {
                         });                            
                     }
                 });
-            });            
+            });
+            
+            $('#namadiklat_f').on('change',function(){
+               var namadiklat_f = $(this).val();
+               $('#isirtl').html('<tr><td colspan="100%"><img src="assets/img/bgLoad1.gif"></td></tr>');
+                $.ajax({
+                    url: 'listrtl.php',
+                    type: 'POST',
+                    data: 'namadiklat='+namadiklat_f,
+                    //async: false,
+                    cache:true,
+                    success: function(updinov1){                      
+                        $("#tablertl").DataTable().destroy();
+                        $('#isirtl').html(updinov1);
+                        $('#tablertl').dataTable({
+                            "lengthMenu": [ 5, 10, 25, 50, 100 ],
+                            "pageLength": 5
+                        });                            
+                    }
+                });
+            });
 
             $('#btnlogin').click(function(e){
                e.preventDefault();

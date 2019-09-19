@@ -8,7 +8,7 @@ include '../plugins/session_user.php';
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Pendaftaran Inovasi Berhasil - Badan Pengembangan Sumber Daya Manusia Daerah Provinsi Jawa Tengah</title>
+        <title>Pendaftaran RTL Berhasil - Badan Pengembangan Sumber Daya Manusia Daerah Provinsi Jawa Tengah</title>
         <link href='../assets/img/logo_jawa_tengah_icon.ico' rel='icon' type='image/x-icon'>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,7 +32,7 @@ body {
                        <img src="../assets/img/logo_jawa_tengah_icon.ico" height="32" alt="">
                     </div>
                     <div>
-                        <h3 style="float: left"><b>Pusat Inovasi Kepemimpinan</b></h3>
+                        <h3 style="float: left"><b>Direktori Rencana Tindak Lanjut</b></h3>
                         <h4 style="float: right">BPSDMD Provinsi Jawa Tengah</h4>
                     </div>                    
                 </div>

@@ -104,29 +104,7 @@ include '../plugins/session_superadmin.php';
                         $('#tableinov').dataTable();                                     
                 }
             });
-            $('#namadiklat').on('change',function(){
-               var namadiklat = $(this).val();
-               $('#loading').html('<img src="../assets/img/bgLoad1.gif">');
-                $.ajax({
-                    url: 'admlistuser.php',
-                    type: 'POST',
-                    data: 'namadiklat='+namadiklat,
-                    async: false,
-                    cache:true,
-                    success: function(b){
-                        $('#loading').html('');
-                        $('#isiuser').html(b);
-                        if(b=='nodata'){
-                            $('#hapus').hide();
-                            $('#isiuser').html('<tr><td colspan="9"><center>Tidak ada data</center></td></tr>'); 
-                        }
-                        else{
-                            $('#isiuser').html(b);
-                            $('#hapus').show();
-                        } 
-                    }
-                });
-            });             
+            
         });     
         function confirmdel(){
             var con = confirm('Yakin hapus?');
