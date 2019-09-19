@@ -67,29 +67,26 @@
 
     $insertinovasi = "INSERT INTO rtl (`nip`, `namadiklat`, `jenisdiklat`, `tahun`, `ruanglingkup`, `cluster`, `judul`, `latarbelakang`, `manfaat`, `milestone`, `status`, `tglsubmit`, `asalpeserta`) VALUES('$nip__', '$namadiklat__', '$jenisdiklat__', '$tahun__', '$ruanglingkup__', '$cluster__', '$judul__', '$latarbelakang__', '$manfaat__', '$milestone__', '0', now(), 'internal')";
     
-    if(mysqli_num_rows($cekpeserta)=='0')
-    {
+    if(mysqli_num_rows($cekpeserta)=='0'){
         $query = "INSERT INTO peserta (`nip`, `nama`, `jabatan`, `skpd`, `pemda`) VALUES('$nip__','$nama__','$jabatan__','$skpd__','$pemda__') ";           
     }
-    else
-    {
-        $query = "UPDATE peserta SET nama='".$nama__."', jabatan='".$jabatan__."', skpd='".$skpd__."', pemda='".$pemda__."' WHERE nip='".$nip__."'";
-                    
+    else{
+        $query = "UPDATE peserta SET nama='".$nama__."', jabatan='".$jabatan__."', skpd='".$skpd__."', pemda='".$pemda__."' WHERE nip='".$nip__."'";                  
     }
- 
+  
+    $eksekusi_inovasi = mysqli_query($con, $insertinovasi);
+    $pesan_error1 = mysqli_error($con);
     
-    $eksekusi = mysqli_query($con, $insertinovasi);
-    $eksekusi2 = mysqli_query($con, $query);
+    $eksekusi_data_peserta = mysqli_query($con, $query);
+    $pesan_error2 = mysqli_error($con);
 
-    if($eksekusi)
-    { ?>
+    if($eksekusi_inovasi && $eksekusi_data_peserta){     
+        ?>
         <script>window.location = "success_rtl.php?nip=<?= $nip ?>&namadiklat=<?= $namadiklat ?>"</script>
         <?php
         //echo '<p>Terima kasih, pendaftaran inovasi Anda untuk diklat '.$namadiklat.' telah berhasil. Selanjutnya akan dilakukan verifikasi oleh Bidang Manajerial sebelum inovasi Anda ditampilkan di halaman publik. <a href="index.php"><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span> Lihat Inovasi Anda</a></p>';        
     }
-    else
-    {
-        print($eksekusi);
-        echo mysqli_error($con);
-        
+    else{
+        echo $pesan_error1.'. '.$pesan_error2;     
     }
+    

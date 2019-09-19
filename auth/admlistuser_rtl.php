@@ -1,8 +1,6 @@
 <?php
     include "../plugins/config.php";
-    //include "../plugins/enkrip-dekrip.php";
-
-    
+    include "../plugins/enkrip-dekrip.php";
 
     $no=0;
     if(isset($_POST['namadiklat']))
@@ -11,12 +9,12 @@
         if($namadiklat=='semua')
         {
             //where tipe internal karena yang ditampilkan adalah user dari peserta yang melakukan diklat di BPSDMD
-            $selectuser = mysqli_query($con,"SELECT * FROM user WHERE namadiklat!='-' AND tipe='dikfung'");     
+            $selectuser = mysqli_query($con,"SELECT * FROM user WHERE namadiklat!='-' AND tipe='fungsional'");     
         }
         else
         {
             //where tipe internal karena yang ditampilkan adalah user dari peserta yang melakukan diklat di BPSDMD
-            $selectuser = mysqli_query($con,"SELECT * FROM user WHERE namadiklat='".$namadiklat."' AND namadiklat!='-' AND tipe='dikfung'");   
+            $selectuser = mysqli_query($con,"SELECT * FROM user WHERE namadiklat='".$namadiklat."' AND namadiklat!='-' AND tipe='fungsional'");   
         }         
     }  
 
@@ -31,8 +29,7 @@
             echo '<tr>'
             . '<td>'.$no.'</td>'
             . '<td>'.htmlspecialchars($baris['user']).'</td>'
-            . '<td>'.$baris['password'].'</td>'
-            //. '<td>'.dekrip($baris['password']).'</td>'
+            . '<td>'.dekrip($baris['password']).'</td>'
             . '<td>'.htmlspecialchars($baris['nama']).'</td>'
             . '<td>'.htmlspecialchars($baris['nip']).'</td>'
             . '<td>'.htmlspecialchars($baris['jabatan']).'</td>'

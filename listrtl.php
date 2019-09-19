@@ -27,7 +27,7 @@
     else{
         while($baris=mysqli_fetch_array($selectinovasi)){
             $no++;
-            echo '<tr><td><center>'.$no.'</center></td><td><a class="tautan" href="rtl_fungsional.html?id='.htmlspecialchars($baris['id_rtl']).'">'.strtoupper(htmlspecialchars($baris['judul'])).'</a></td><td>'.htmlspecialchars(
+            echo '<tr><td><center>'.$no.'</center></td><td><a class="tautan" href="rtl_fungsional.php?id='.htmlspecialchars($baris['id_rtl']).'">'.strtoupper(htmlspecialchars($baris['judul'])).'</a></td><td>'.htmlspecialchars(
                 $baris['nama']).'</td></tr>';
         }        
     }
