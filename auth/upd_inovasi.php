@@ -45,7 +45,16 @@
     $kelompok__ = mysqli_real_escape_string($con,$kelompok_);     
 
     $jenisinovasi_ = stripslashes($jenisinovasi);
-    $jenisinovasi__ = mysqli_real_escape_string($con,$jenisinovasi_);     
+    $jenisinovasi__ = mysqli_real_escape_string($con,$jenisinovasi_);
+    
+    $latarbelakang_ = stripslashes($latarbelakang);
+    $latarbelakang__ = mysqli_real_escape_string($con,$latarbelakang_);
+    
+    $manfaat_ = stripslashes($manfaat);
+    $manfaat__ = mysqli_real_escape_string($con,$manfaat_);
+    
+    $milestone_ = stripslashes($milestone);
+    $milestone__ = mysqli_real_escape_string($con,$milestone_);       
     
 
     //update inovasi, pesertanya dan usernya sekalian

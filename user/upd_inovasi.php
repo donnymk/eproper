@@ -16,37 +16,49 @@
     $milestone = $_POST['viewmilestone'];
     
     // Mencegah MySQL injection
-    $nip = stripslashes($nip);
-    $nip = mysqli_real_escape_string($con,$nip);
+    $id_ = stripslashes($id);
+    $id__ = mysqli_real_escape_string($con,$id_);    
     
-    $nama = stripslashes($nama);
-    $nama = mysqli_real_escape_string($con,$nama);
+    $nip_ = stripslashes($nip);
+    $nip__ = mysqli_real_escape_string($con,$nip_);
     
-    $niplama = stripslashes($niplama);
-    $niplama = mysqli_real_escape_string($con,$niplama);
+    $nama_ = stripslashes($nama);
+    $nama__ = mysqli_real_escape_string($con,$nama_);
     
-    $jabatan = stripslashes($jabatan);
-    $jabatan = mysqli_real_escape_string($con,$jabatan);
+    $niplama_ = stripslashes($niplama);
+    $niplama__ = mysqli_real_escape_string($con,$niplama_);
     
-    $skpd = stripslashes($skpd);
-    $skpd = mysqli_real_escape_string($con,$skpd);  
+    $jabatan_ = stripslashes($jabatan);
+    $jabatan__ = mysqli_real_escape_string($con,$jabatan_);
+    
+    $skpd_ = stripslashes($skpd);
+    $skpd__ = mysqli_real_escape_string($con,$skpd_);  
 
-    $judul = stripslashes($judul);
-    $judul = mysqli_real_escape_string($con,$judul);
+    $judul_ = stripslashes($judul);
+    $judul__ = mysqli_real_escape_string($con,$judul_);
     
-    $kelompok = stripslashes($kelompok);
-    $kelompok = mysqli_real_escape_string($con,$kelompok);     
+    $kelompok_ = stripslashes($kelompok);
+    $kelompok__ = mysqli_real_escape_string($con,$kelompok_);     
 
-    $jenisinovasi = stripslashes($jenisinovasi);
-    $jenisinovasi = mysqli_real_escape_string($con,$jenisinovasi); 
+    $jenisinovasi_ = stripslashes($jenisinovasi);
+    $jenisinovasi__ = mysqli_real_escape_string($con,$jenisinovasi_);
+    
+    $latarbelakang_ = stripslashes($latarbelakang);
+    $latarbelakang__ = mysqli_real_escape_string($con,$latarbelakang_);
+    
+    $manfaat_ = stripslashes($manfaat);
+    $manfaat__ = mysqli_real_escape_string($con,$manfaat_);
+    
+    $milestone_ = stripslashes($milestone);
+    $milestone__ = mysqli_real_escape_string($con,$milestone_); 
     
     //Perbarui session NIP
     $_SESSION['nip'] = $nip;
 
     //update inovasi, pesertanya dan usernya sekalian
-    $update_peserta = "UPDATE peserta SET nip = '".$nip."', nama = '".$nama."', jabatan = '".$jabatan."', skpd = '".$skpd."' WHERE nip = '".$niplama."';";   
-    $update_inovasi = "UPDATE inovasi SET kelompok = '".$kelompok."', jenis_inovasi = '".$jenisinovasi."', judul = '".$judul."', latarbelakang = '".$latarbelakang."', manfaat = '".$manfaat."', milestone = '".$milestone."' WHERE id = '".$id."';";
-    $update_user = "UPDATE user SET nip = '".$nip."', nama = '".$nama."', jabatan = '".$jabatan."', skpd = '".$skpd."' WHERE nip = '".$niplama."';";
+    $update_peserta = "UPDATE peserta SET nip = '".$nip__."', nama = '".$nama__."', jabatan = '".$jabatan__."', skpd = '".$skpd__."' WHERE nip = '".$niplama__."';";   
+    $update_inovasi = "UPDATE inovasi SET kelompok = '".$kelompok__."', jenis_inovasi = '".$jenisinovasi__."', judul = '".$judul__."', latarbelakang = '".$latarbelakang__."', manfaat = '".$manfaat__."', milestone = '".$milestone__."' WHERE id = '".$id__."';";
+    $update_user = "UPDATE user SET nip = '".$nip__."', nama = '".$nama__."', jabatan = '".$jabatan__."', skpd = '".$skpd__."' WHERE nip = '".$niplama__."';";
 
     $query = $update_peserta.$update_inovasi.$update_user;
 

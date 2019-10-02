@@ -6,10 +6,15 @@ include "../plugins/enkrip-dekrip.php";
 $no = 0;
 if (isset($_POST['namadiklat'])) {
     $namadiklat = $_POST['namadiklat'];
+    
+    // Mencegah MySQL injection
+    $namadiklat_ = stripslashes($namadiklat);
+    $namadiklat__ = mysqli_real_escape_string($con,$namadiklat_);        
+    
     if ($namadiklat == 'semua') {
         $selectuser = mysqli_query($con, "SELECT * FROM user WHERE namadiklat!='-' AND tipe='kabkota'");
     } else {
-        $selectuser = mysqli_query($con, "SELECT * FROM user WHERE namadiklat='" . $namadiklat . "' AND namadiklat!='-' AND tipe='kabkota'");
+        $selectuser = mysqli_query($con, "SELECT * FROM user WHERE namadiklat='" . $namadiklat__ . "' AND namadiklat!='-' AND tipe='kabkota'");
     }
 }
 

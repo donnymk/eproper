@@ -17,7 +17,7 @@
                 . '<p>Klik tombol di bawah ini untuk mencetak bukti pendaftaran inovasi.<p><br>
 <center><form method="get" action="cetak_bukti.php" target="_blank">
     <input type="hidden" name="id" value="'.$baris['id'].'">
-    <button type="submit" class="btn btn-primary btn-lg" name="cetak"><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span> Cetak bukti pendaftaran inovasi</button>
+    <button type="submit" class="w3-btn w3-dark-grey" name="cetak"><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span> Cetak bukti pendaftaran inovasi</button>
 </form></center>';
         
     }

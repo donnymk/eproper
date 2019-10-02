@@ -36,20 +36,11 @@ if($_SESSION['nama'] != $baris['asal_peserta']){
     </head>
     <body>
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div id="logojateng" style="float: left; margin-right: 10px; margin-top: 4px">
-                       <img src="../assets/img/logo_jawa_tengah_icon.ico" height="32" alt="">
-                    </div>
-                    <div>
-                        <h3 style="float: left"><b>Pusat Inovasi Kepemimpinan</b></h3>
-                        <h4 style="float: right">BPSDMD Provinsi Jawa Tengah</h4>
-                    </div>                    
-                </div>
-            </div>
+            <!-- Header -->
+            <?php include 'header.php' ?>
             <div class="row">
                 <div class="col-md-12">            
-                    <ul class="w3-navbar w3-pink w3-round">               
+                    <ul class="w3-navbar w3-teal w3-round">               
                         <li><a class="w3-hover-blue-grey" href="./">Daftarkan Inovasi</a></li>
                         <li><a class="w3-blue-grey" href="dinovasi.php">Direktori Inovasi</a></li>
                         <li class="w3-right w3-dropdown-click">
@@ -162,7 +153,7 @@ if($_SESSION['nama'] != $baris['asal_peserta']){
                         <label>Milestone</label>:
                         <textarea name="viewmilestone" id="viewmilestone"></textarea>
                         <br>
-                        <button class="w3-btn w3-right w3-deep-orange" type="submit">Perbarui</button>
+                        <button class="w3-btn w3-right w3-dark-grey w3-round" type="submit"><span class="glyphicon glyphicon-floppy-disk"></span> Perbarui</button>
                     </div>
                     </form>
                 </div>

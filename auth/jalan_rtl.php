@@ -37,7 +37,7 @@ for ($i=2; $i<=$hasildata; $i++)
 
     //$query = "INSERT INTO user(`user`,`password`,`nama`,`nip`,`jabatan`,`skpd`,`namadiklat`,`jenisdiklat`,`tipe`) VALUES ('".$data1."','".enkrip($data2)."','".mysqli_real_escape_string($con,$data3)."','".$data4."','".mysqli_real_escape_string($con,$data5)."','".$data6."','".$namadiklat__."','".$jenisdiklat__."','internal')";
 
-    $query = "INSERT INTO user(`user`,`password`,`nama`,`nip`,`jabatan`,`skpd`,`namadiklat`,`jenisdiklat`,`tipe`) VALUES ('".$data1."','".enkrip($data2)."','".mysqli_real_escape_string($con,$data3)."','".$data4."','".mysqli_real_escape_string($con,$data5)."','".$data6."','".$namadiklat__."','".$jenisdiklat__."','fungsional')";
+    $query = "INSERT INTO user(`user`,`password`,`nama`,`nip`,`jabatan`,`skpd`,`namadiklat`,`jenisdiklat`,`tipe`) VALUES ('".$data1."','".enkrip($data2)."','".mysqli_real_escape_string($con,$data3)."','".mysqli_real_escape_string($con,$data4)."','".mysqli_real_escape_string($con,$data5)."','".$data6."','".$namadiklat__."','".$jenisdiklat__."','fungsional')";
     $hasil = mysqli_query($con,$query);
 
     if ($hasil) {

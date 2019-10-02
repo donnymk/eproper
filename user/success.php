@@ -26,20 +26,11 @@ body {
     </head>
     <body>
         <div class="container">
+            <!-- Header -->
+            <?php include 'header.php' ?>
             <div class="row">
                 <div class="col-md-12">
-                    <div id="logojateng" style="float: left; margin-right: 10px; margin-top: 4px">
-                       <img src="../assets/img/logo_jawa_tengah_icon.ico" height="32" alt="">
-                    </div>
-                    <div>
-                        <h3 style="float: left"><b>Pusat Inovasi Kepemimpinan</b></h3>
-                        <h4 style="float: right">BPSDMD Provinsi Jawa Tengah</h4>
-                    </div>                    
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <ul class="w3-navbar w3-pink w3-round">
+                    <ul class="w3-navbar w3-teal w3-round">
                         <li><a class="w3-blue-grey" href="./">Daftarkan Inovasi</a></li>
                         <li><a class="w3-hover-blue-grey" href="dinovasi.php">Direktori Inovasi</a></li>
                         <li class="w3-right w3-dropdown-click">
@@ -56,7 +47,7 @@ body {
             
             <br><br>
             <div style="max-width: 800px; margin: auto">
-                <div class="alert alert-info" id="msgsuccess">
+                <div class="alert alert-success" id="msgsuccess">
                 </div>
             </div>
         </div>

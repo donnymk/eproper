@@ -17,6 +17,9 @@
     $milestone = $_POST['viewmilestone'];
 
     // Mencegah MySQL injection
+    $id_ = stripslashes($id);
+    $id__ = mysqli_real_escape_string($con,$id_);            
+    
     $nip = stripslashes($nip);
     $nip = mysqli_real_escape_string($con,$nip);
     
@@ -42,14 +45,23 @@
     $ruanglingkup = mysqli_real_escape_string($con,$ruanglingkup);     
 
     $cluster = stripslashes($cluster);
-    $cluster = mysqli_real_escape_string($con,$cluster); 
+    $cluster = mysqli_real_escape_string($con,$cluster);
+    
+    $latarbelakang_ = stripslashes($latarbelakang);
+    $latarbelakang__ = mysqli_real_escape_string($con,$latarbelakang_);
+    
+    $manfaat_ = stripslashes($manfaat);
+    $manfaat__ = mysqli_real_escape_string($con,$manfaat_);
+    
+    $milestone_ = stripslashes($milestone);
+    $milestone__ = mysqli_real_escape_string($con,$milestone_);    
     
     //Perbarui session NIP
     //$_SESSION['nip'] = $nip;    
 
     //update inovasi, pesertanya dan usernya sekalian
     $update_peserta = "UPDATE peserta SET nip = '".$nip."', nama = '".$nama."', jabatan = '".$jabatan."', skpd = '".$skpd."', pemda = '".$pemda."' WHERE nip = '".$niplama."';";
-    $update_inovasi = "UPDATE rtl SET ruanglingkup = '".$ruanglingkup."', cluster = '".$cluster."', judul = '".$judul."', latarbelakang = '".$latarbelakang."', manfaat = '".$manfaat."', milestone = '".$milestone."' WHERE id_rtl = '".$id."';";
+    $update_inovasi = "UPDATE rtl SET ruanglingkup = '".$ruanglingkup."', cluster = '".$cluster."', judul = '".$judul."', latarbelakang = '".$latarbelakang__."', manfaat = '".$manfaat__."', milestone = '".$milestone__."' WHERE id_rtl = '".$id__."';";
     $update_user = "UPDATE user SET nip = '".$nip."', nama = '".$nama."', jabatan = '".$jabatan."', skpd = '".$skpd."' WHERE nip = '".$niplama."';";
     
     $query = $update_peserta.$update_inovasi.$update_user;

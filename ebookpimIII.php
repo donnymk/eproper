@@ -5,7 +5,7 @@ DONNY MALIK KURNIAWAN (bossdony@gmail.com)
 -->
 <html>
     <head>
-        <title>Direktori Inovasi - Badan Pengembangan Sumber Daya Manusia Daerah Provinsi Jawa Tengah</title>
+        <title>E-Laporan Hasil Pelatihan | Badan Pengembangan Sumber Daya Manusia Daerah Provinsi Jawa Tengah</title>
         <link href='assets/img/logo_jawa_tengah_icon.ico' rel='icon' type='image/x-icon'>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">

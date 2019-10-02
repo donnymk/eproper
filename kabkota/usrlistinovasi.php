@@ -5,13 +5,18 @@
     $no=0;
     if(isset($_POST['nmkabkota'])){
         $nmkabkota = $_POST['nmkabkota'];
+        
+        // Mencegah MySQL injection
+        $nmkabkota_ = stripslashes($nmkabkota);
+        $nmkabkota__ = mysqli_real_escape_string($con,$nmkabkota_);    
+        
         //jika dipilih SEMUA Kab/Kota
         if($nmkabkota=='semua'){
             $selectinovasi = mysqli_query($con,"SELECT inovasi.id, inovasi.jenis_inovasi, inovasi.judul, inovasi.status, inovasi.asal_peserta, DATE_FORMAT(inovasi.tglsubmit,'%d/%m/%Y %T') AS tglsubmit, DATE_FORMAT(inovasi.tglveri,'%d/%m/%Y %T') AS tglveri, peserta.nama FROM inovasi INNER JOIN peserta ON inovasi.nip = peserta.nip WHERE inovasi.asal_peserta<>'internal' ORDER BY inovasi.tglsubmit DESC");     
         }
         //jika nama diklatnya dipilih dari dropdown
         else{
-            $selectinovasi = mysqli_query($con,"SELECT inovasi.id, inovasi.jenis_inovasi, inovasi.judul, inovasi.status, inovasi.asal_peserta, DATE_FORMAT(inovasi.tglsubmit,'%d/%m/%Y %T') AS tglsubmit, DATE_FORMAT(inovasi.tglveri,'%d/%m/%Y %T') AS tglveri, peserta.nama FROM inovasi INNER JOIN peserta ON inovasi.nip = peserta.nip WHERE inovasi.asal_peserta='".$nmkabkota."' ORDER BY inovasi.tglsubmit DESC");      
+            $selectinovasi = mysqli_query($con,"SELECT inovasi.id, inovasi.jenis_inovasi, inovasi.judul, inovasi.status, inovasi.asal_peserta, DATE_FORMAT(inovasi.tglsubmit,'%d/%m/%Y %T') AS tglsubmit, DATE_FORMAT(inovasi.tglveri,'%d/%m/%Y %T') AS tglveri, peserta.nama FROM inovasi INNER JOIN peserta ON inovasi.nip = peserta.nip WHERE inovasi.asal_peserta='".$nmkabkota__."' ORDER BY inovasi.tglsubmit DESC");      
         }              
     }
     
@@ -36,8 +41,8 @@
             }
             
             if($baris['asal_peserta'] == $_SESSION['nama']){
-                $tombol_edit = '<a class="w3-btn w3-tiny w3-deep-orange" href="editinovasi.php?id='.$baris['id'].'"><span class="glyphicon glyphicon-edit"></span> Edit</a>';
-                $tombol_cetak = '<a class="w3-btn w3-tiny w3-deep-orange" href="cetak_bukti.php?id='.$baris['id'].'" target="_blank"><span class="glyphicon glyphicon-print"></span> Cetak bukti</a>';
+                $tombol_edit = '<a class="w3-btn w3-tiny w3-dark-grey" href="editinovasi.php?id='.$baris['id'].'"><span class="glyphicon glyphicon-edit"></span> Edit</a>';
+                $tombol_cetak = '<a class="w3-btn w3-tiny w3-dark-grey" href="cetak_bukti.php?id='.$baris['id'].'" target="_blank"><span class="glyphicon glyphicon-print"></span> Cetak bukti</a>';
             }
             
             echo '<tr>'

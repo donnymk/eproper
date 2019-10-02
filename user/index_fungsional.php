@@ -23,20 +23,11 @@
     </head>
     <body>
         <div class="container" style="background-color: white; border-radius: 7px;">
+            <!-- Header -->
+            <?php include 'header.php' ?>
             <div class="row">
                 <div class="col-md-12">
-                    <div id="logojateng" style="float: left; margin-right: 10px; margin-top: 4px">
-                       <img src="../assets/img/logo_jawa_tengah_icon.ico" height="32" alt="">
-                    </div>
-                    <div>
-                        <h3 style="float: left"><b>Direktori Rencana Tindak Lanjut</b></h3>
-                        <h4 style="float: right">BPSDMD Provinsi Jawa Tengah</h4>
-                    </div>                    
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <ul class="w3-navbar w3-pink w3-round">
+                    <ul class="w3-navbar w3-teal w3-round">
                         <li><a class="w3-blue-grey" href="index_fungsional.php">Daftarkan RTL</a></li>
                         <li><a class="w3-hover-blue-grey" href="drtl.php">Direktori RTL</a></li>
                         <li class="w3-right w3-dropdown-click">
@@ -56,7 +47,7 @@
                 <div class="panel-body">
                     <form method="POST" action="save_rtl.php">
                         <div class="row">
-                            <div class="col-md-5">
+                            <div class="col-md-9">
                                 <div class="form-group">                    
                                     <label>Diklat & Angkatan</label>
                                     <input class="form-control input-lg" type="text" id="namadiklat" name="namadiklat" disabled="" value="<?= $_SESSION['namadiklat'] ?>">
@@ -161,7 +152,7 @@
                             </div>                            
                         </div>                    
                         <br>
-                        <span class="w3-tag w3-dark-grey w3-small">Inovasi</span>
+                        <span class="w3-tag w3-dark-grey w3-small">Rencana Tindak Lanjut</span>
                         <br><br>
                         <div class="row">
                             <div class="col-md-11">

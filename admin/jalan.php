@@ -6,6 +6,14 @@ include "../plugins/enkrip-dekrip.php";
 
 $jenisdiklat = $_POST['jenisdiklat'];
 $namadiklat = $_POST['namadiklat'];
+
+// Mencegah MySQL injection
+$jenisdiklat_ = stripslashes($jenisdiklat);
+$jenisdiklat__ = mysqli_real_escape_string($con,$jenisdiklat_);  
+
+$namadiklat_ = stripslashes($namadiklat);
+$namadiklat__ = mysqli_real_escape_string($con,$namadiklat_);  
+
 // file yang tadinya di upload, di simpan di temporary file PHP, file tersebut yang kita ambil
 // dan baca dengan PHP Excel Class
 $data = new Spreadsheet_Excel_Reader($_FILES['fileexcel']['tmp_name']);
@@ -25,7 +33,7 @@ for ($i=2; $i<=$hasildata; $i++){
     //$date = date('Y-m-d H:i:s');
     //$rand = rand();
 
-    $query = "INSERT INTO user(`user`,`password`,`nama`,`nip`,`jabatan`,`skpd`,`namadiklat`,`jenisdiklat`,`tipe`) VALUES ('".$data1."','".enkrip($data2)."','".mysqli_real_escape_string($con,$data3)."','".$data4."','".mysqli_real_escape_string($con,$data5)."','".$data6."','".$namadiklat."','".$jenisdiklat."','internal')";
+    $query = "INSERT INTO user(`user`,`password`,`nama`,`nip`,`jabatan`,`skpd`,`namadiklat`,`jenisdiklat`,`tipe`) VALUES ('".$data1."','".enkrip($data2)."','".mysqli_real_escape_string($con,$data3)."','".$data4."','".mysqli_real_escape_string($con,$data5)."','".$data6."','".$namadiklat__."','".$jenisdiklat__."','internal')";
     $hasil = mysqli_query($con,$query);
 
     if ($hasildata) $sukses++;

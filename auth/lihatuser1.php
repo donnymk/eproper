@@ -28,17 +28,8 @@ include '../plugins/session_superadmin.php';
     </head>
     <body>
         <div class="container" style="background-color: white; border-radius: 7px;">
-            <div class="row">
-                <div class="col-md-12">
-                    <div id="logojateng" style="float: left; margin-right: 10px; margin-top: 4px">
-                       <img src="../assets/img/logo_jawa_tengah_icon.ico" height="32" alt="">
-                    </div>
-                    <div>
-                        <h3 style="float: left"><b>Pusat Inovasi Kepemimpinan</b></h3>
-                        <h4 style="float: right">BPSDMD Provinsi Jawa Tengah</h4>
-                    </div>                    
-                </div>
-            </div>
+            <!-- Header -->
+            <?php include 'header.php' ?>
             <div class="row">
                 <div class="col-md-12">
                     <ul class="w3-navbar w3-pink w3-round">

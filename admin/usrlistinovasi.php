@@ -4,13 +4,17 @@
     $no=0;
     if(isset($_POST['nmkabkota'])){
         $nmkabkota = $_POST['nmkabkota'];
+        // Mencegah MySQL injection
+        $nmkabkota_ = stripslashes($nmkabkota);
+        $nmkabkota__ = mysqli_real_escape_string($con,$nmkabkota_);              
+        
         //jika dipilih SEMUA Kab/Kota
         if($nmkabkota=='semua'){
             $selectinovasi = mysqli_query($con,"SELECT inovasi.id, inovasi.jenis_inovasi, inovasi.judul, inovasi.status, inovasi.asal_peserta, inovasi.namadiklat, DATE_FORMAT(inovasi.tglsubmit,'%d/%m/%Y %T') AS tglsubmit, DATE_FORMAT(inovasi.tglveri,'%d/%m/%Y %T') AS tglveri, peserta.nama FROM inovasi INNER JOIN peserta ON inovasi.nip = peserta.nip WHERE inovasi.asal_peserta<>'internal' ORDER BY inovasi.tglsubmit DESC");     
         }
         //jika nama diklatnya dipilih dari dropdown
         else{
-            $selectinovasi = mysqli_query($con,"SELECT inovasi.id, inovasi.jenis_inovasi, inovasi.judul, inovasi.status, inovasi.asal_peserta, inovasi.namadiklat, DATE_FORMAT(inovasi.tglsubmit,'%d/%m/%Y %T') AS tglsubmit, DATE_FORMAT(inovasi.tglveri,'%d/%m/%Y %T') AS tglveri, peserta.nama FROM inovasi INNER JOIN peserta ON inovasi.nip = peserta.nip WHERE inovasi.asal_peserta='".$nmkabkota."' ORDER BY inovasi.tglsubmit DESC");      
+            $selectinovasi = mysqli_query($con,"SELECT inovasi.id, inovasi.jenis_inovasi, inovasi.judul, inovasi.status, inovasi.asal_peserta, inovasi.namadiklat, DATE_FORMAT(inovasi.tglsubmit,'%d/%m/%Y %T') AS tglsubmit, DATE_FORMAT(inovasi.tglveri,'%d/%m/%Y %T') AS tglveri, peserta.nama FROM inovasi INNER JOIN peserta ON inovasi.nip = peserta.nip WHERE inovasi.asal_peserta='".$nmkabkota__."' ORDER BY inovasi.tglsubmit DESC");      
         }              
     }
     
