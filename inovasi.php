@@ -159,7 +159,8 @@ body {
             var id = $_GET('id');
             
             //tampilkan button print
-            $('#btn-print').html(' <a href="cetakinovasi/?nourut='+id+'" class="w3-btn w3-dark-grey w3-round" target="_blank"><span class="fa fa-print"></span> Cetak</a>');
+            //$('#btn-print').html(' <a href="cetakinovasi/?nourut='+id+'" class="w3-btn w3-dark-grey w3-round" target="_blank"><span class="fa fa-print"></span> Cetak</a>');
+            $('#btn-print').html(' <span class="dropdown"><button class="w3-btn w3-dark-grey w3-round dropdown-toggle" type="button" data-toggle="dropdown">Cetak <span class="caret"></span></button><ul class="dropdown-menu"><li><a href="cetakinovasi/index_pdf.php/?nourut='+id+'" target="_blank">PDF</a></li><li><a href="cetakinovasi/?nourut='+id+'" target="_blank">HTML</a></li></ul></span>');
                        
             $.ajax({
                 url: 'detailinovasi.php',

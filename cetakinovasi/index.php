@@ -1,18 +1,15 @@
 <?php
-    require '../plugins/vendor/autoload.php';
-
-    use Spipu\Html2Pdf\Html2Pdf;
     
 if (isset($_GET['nourut'])){
-    $id = $_GET['nourut'];
+    include "../plugins/config.php";
+    
+    $id__ = $_GET['nourut'];
     // Mencegah MySQL injection
-    $id = stripslashes($id);
-    $id = mysqli_real_escape_string($con, $id);
+    $id_ = stripslashes($id__);
+    $id = mysqli_real_escape_string($con, $id_);
     
     date_default_timezone_set('Asia/Jakarta');
     
-    include "../plugins/config.php";
-
     $query="SELECT *, (SELECT nama FROM peserta WHERE nip=(SELECT nip FROM inovasi WHERE id='".$id."')) AS nama, (SELECT jabatan FROM peserta WHERE nip=(SELECT nip FROM inovasi WHERE id='".$id."')) AS jabatan, (SELECT skpd FROM peserta WHERE nip=(SELECT nip FROM inovasi WHERE id='".$id."')) AS skpd FROM inovasi WHERE id='".$id."'";
     $result = mysqli_query($con,$query);
     
@@ -23,7 +20,6 @@ if (isset($_GET['nourut'])){
         $tahun =$row['tahun'];
         $kelompok =$row['kelompok'];
         $jenis_inovasi =$row['jenis_inovasi'];
-        $judul =$row['judul'];
         $latarbelakang =$row['latarbelakang'];
         $manfaat =$row['manfaat'];
         $milestone =$row['milestone'];
@@ -31,34 +27,27 @@ if (isset($_GET['nourut'])){
         $jabatan =$row['jabatan'];
         $skpd =$row['skpd'];
     }
-    
-    $html2pdf = new Html2Pdf('L', 'A4', 'en', true, 'UTF-8', ARRAY(40,25.4,25.4,25.4));
-    $html2pdf->writeHTML(
-            '<page>
-              <page_header>
-                [[page_cu]]/[[page_nb]]
-              </page_header>
-            </page>'
-            . '<h3>'.$judul.'</h3><hr>'
-            . '<table>'
-            . '<tr><td>Nama Diklat</td><td>:</td><td>'.$namadiklat.'</td></tr>'
-            . '<tr><td>Tahun</td><td>:</td><td>'.$tahun.'</td></tr>'
-            . '<tr><td>Ruang lingkup inovasi</td><td>:</td><td>'.$kelompok.'</td></tr>'
-            . '<tr><td>Cluster inovasi</td><td>:</td><td>'.$jenis_inovasi.'</td></tr>'
-            . '<tr><td>Inovator</td><td>:</td><td>'.$nama.'</td></tr>'
-            . '<tr><td>Jabatan</td><td>:</td><td>'.$jabatan.'</td></tr>'
-            . '<tr><td>Instansi</td><td>:</td><td>'.$skpd.'</td></tr>'
-            . '</table>'
-            . '<br>'
-            . '<b>Latar Belakang</b>'
-            . $latarbelakang
-            . '<b>Manfaat</b>'
-            . $manfaat
-            . '<b>Milestone</b>'
-            . $milestone.
-            '<br><hr><small>Dicetak pada: '.date("d/m/Y H:i:s").'</small>'
-            );
-    $html2pdf->output();
-    
-}
 ?>
+            <h2><?= $judul ?></h2><hr>
+            <table>
+            <tr><td>Nama Diklat</td><td>:</td><td><?= $namadiklat ?></td></tr>
+            <tr><td>Tahun</td><td>:</td><td><?= $tahun ?></td></tr>
+            <tr><td>Ruang lingkup inovasi</td><td>:</td><td><?= $kelompok ?></td></tr>
+            <tr><td>Cluster inovasi</td><td>:</td><td><?= $jenis_inovasi ?></td></tr>
+            <tr><td>Inovator</td><td>:</td><td><?= $nama ?></td></tr>
+            <tr><td>Jabatan</td><td>:</td><td><?= $jabatan ?></td></tr>
+            <tr><td>Instansi</td><td>:</td><td><?= $skpd ?></td></tr>
+            </table>
+            <hr>
+            <h3>Latar Belakang</h3>
+            <?= $latarbelakang ?>
+            <hr>
+            <h3>Manfaat</h3>
+            <?= $manfaat ?>
+            <hr>
+            <h3>Milestone</h3>
+            <?= $milestone ?>
+            <br><hr>
+            <p style="font-size: small; font-style: italic">Dicetak melalui website E-Proper BPSDMD Provinsi Jawa Tengah (https://bpsdmd.jatengprov.go.id/eproper) pada <?= date("d M Y H:i:s") ?></p>
+<?php   
+}
