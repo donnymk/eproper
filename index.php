@@ -222,7 +222,7 @@ DONNY MALIK KURNIAWAN (bossdony@gmail.com)
                                     if (namadiklat === 'semua') {
                                         header = 'Inovasi Pelatihan Kepemimpinan yang diselenggarakan di BPSDMD Provinsi Jawa Tengah';
                                     } else {
-                                        header = 'Nama Pelatihan ' + namadiklat;
+                                        header = 'Nama Pelatihan: ' + namadiklat;
                                     }
                                     $('#isiinovasi').html(konten);
                                     $('#tableinov').dataTable({
