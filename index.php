@@ -222,7 +222,10 @@ DONNY MALIK KURNIAWAN (bossdony@gmail.com)
                                     if (namadiklat === 'semua') {
                                         header = 'Inovasi Pelatihan Kepemimpinan yang diselenggarakan di BPSDMD Provinsi Jawa Tengah';
                                     } else {
-                                        header = 'Nama Pelatihan: ' + namadiklat;
+                                        var data_pelatihan = namadiklat.split("|");
+                                        var nama_pelatihan = data_pelatihan[0];
+                                        var tahun_pelatihan = data_pelatihan[1];
+                                        header = 'Nama Pelatihan: '+nama_pelatihan+' ('+tahun_pelatihan+')';
                                     }
                                     $('#isiinovasi').html(konten);
                                     $('#tableinov').dataTable({
@@ -310,7 +313,10 @@ DONNY MALIK KURNIAWAN (bossdony@gmail.com)
                                     if (namadiklat === 'semua') {
                                         header = 'Rencana Tindak Lanjut (RTL) Pelatihan Fungsional yang diselenggarakan di BPSDMD Provinsi Jawa Tengah';
                                     } else {
-                                        header = 'Rencana Tindak Lanjut (RTL) ' + namadiklat;
+                                        var data_pelatihan = namadiklat.split("|");
+                                        var nama_pelatihan = data_pelatihan[0];
+                                        var tahun_pelatihan = data_pelatihan[1];
+                                        header = 'Rencana Tindak Lanjut (RTL) '+nama_pelatihan+' ('+tahun_pelatihan+')';                                        
                                     }                                    
                                     $('#isirtl').html(konten);
                                     $('#tablertl').dataTable({

@@ -8,5 +8,5 @@
     echo '<option value="semua">Semua Diklat Fungsional</option>';
     while($baris = mysqli_fetch_array($selectnmdiklat))
     {
-        echo '<option value="'.$baris['namadiklat'].'">'.$baris['namadiklat'].' ('.$baris['tahun'].')</option>';
+        echo '<option value="'.$baris['namadiklat'].'|'.$baris['tahun'].'">'.$baris['namadiklat'].' ('.$baris['tahun'].')</option>';
     }
